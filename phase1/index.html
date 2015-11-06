@@ -8,26 +8,26 @@
 </head>
 <body>
     <div class="container">
-        <div class="row">
-            <div class="col-lg-2">
+        <div class="row" style="padding-top: 5%">
+            <div class="col-lg-3">
             </div>
-            <div class="col-lg-8">
+            <div class="col-lg-6">
                 <div class="row">
                     <div class="embed-responsive embed-responsive-16by9">
-                        <iframe class="embed-responsive-item" id="player" type="text/html" width="640" height="352"
-                                src="http://www.youtube.com/embed/M7lc1UVf-VE?enablejsapi=1&origin=http://example.com"
-                                frameborder="0"></iframe>
+                        <div id="player" class="embed-responsive-item"></div>
                     </div>
                 </div>
                 <div class="row">
                     <div class="col-lg-12">
-                        <h3><strong>Judul video yang sangat panjang saking panjangnya gak bisa di kurangin lagi</strong></h3>
+                        <h3><strong id="video-title"></strong></h3>
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-lg-8"></div>
+                    <div class="col-lg-8">
+                        <div id="youtube-subscriber-button"></div>
+                    </div>
                     <div class="col-lg-4">
-                        <button type="button" class="btn btn-info navbar-btn" style="width: 100%">Next</button>
+                        <button data-loading-text="Mengambil..." id="next-video-please" type="button" class="btn btn-info navbar-btn" style="width: 100%">Next</button>
                     </div>
                 </div>
             </div>
@@ -36,7 +36,58 @@
 </body>
 <script type="text/javascript" src="js/jquery-1.11.3.min.js"></script>
 <script type="text/javascript" src="js/bootstrap.min.js"></script>
+<script src="https://apis.google.com/js/platform.js"></script>
 <script>
+    var tag = document.createElement('script');
 
+    tag.src = "https://www.youtube.com/iframe_api";
+    var firstScriptTag = document.getElementsByTagName('script')[0];
+    firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+
+    var player;
+    function onYouTubeIframeAPIReady() {
+        player = new YT.Player('player', {
+            height: '390',
+            width: '640',
+            events: {
+                'onReady': onPlayerReady,
+                'onStateChange': onPlayerStateChange
+            }
+        });
+    }
+
+    var videoIdToPlay = null;
+
+    function onPlayerReady(event) {
+        playAnotherRandomVideo($("#next-video-please"));
+    }
+
+    function onPlayerStateChange() {
+
+    }
+
+    function playAnotherRandomVideo(button) {
+        $.ajax({
+            url: "http://localhost:2000/api/get-random-video",
+            method: "GET"
+        }).done(function(data) {
+            var json = JSON.parse(data);
+            player.loadVideoById(json["videoId"], 5, "large");
+            $("#video-title").text(json["title"]);
+            $("#youtube-subscriber-button").html("<div id='channel-subscribe-youtube' class='g-ytsubscribe' data-channel='"+json["channelId"]+"' data-layout='full' data-count='default'></div>");
+            $.getScript("https://apis.google.com/js/platform.js");
+
+            button.button("reset");
+        }).fail(function() {
+            button.button("reset");
+        }).always(function() {
+            button.button("reset");
+        });
+    }
+
+    $("#next-video-please").click(function () {
+        $(this).button("loading");
+        playAnotherRandomVideo($(this));
+    });
 </script>
 </html>
