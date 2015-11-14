@@ -1,0 +1,51 @@
+/*
+Indotuber CSS Style
+Author @briandito
+*/
+
+/*GENERAL*/
+html, body{
+    font-family: 'Quicksand', sans-serif;
+    color: #505050;
+}
+
+/*NAVIGATION*/
+#navigation{
+    height: 60px;
+    box-shadow: 0px 0px 5px #505050;
+}
+#navigation .container{
+    width: 1024px;
+    margin: 0 auto;
+}
+#navigation-logo{
+    width: 140px;
+    height: 40px;
+    float:left;
+    
+    text-indent: 9999px;
+    
+    margin-top: 10px;
+    margin-left: 10px;
+    
+    background-image: url(../assets/logo/logo-svg.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.navigation-menu{
+    list-style: none;
+    float: left;
+    margin-top: 20px;
+}
+.navigation-menu__items{
+    display: inline;
+    margin-right: 20px;
+}
+.navigation-menu__items a{
+    padding: 10px;
+    color: #505050;
+}
+.navigation-menu__items a{
+    padding: 10px;
+    color: #505050;
+}
