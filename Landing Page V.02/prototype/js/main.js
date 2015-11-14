@@ -1,7 +1,7 @@
 $(document).ready(function(){
 
-    $('.contain').click(function(){
-        $('.burger').toggleClass("active");
+    $('#burger').click(function(){
+        $('#burger').toggleClass("active");
         
         if($(".nav-group").hasClass("active")){
          $(".nav-group").slideUp(500);    

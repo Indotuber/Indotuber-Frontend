@@ -1,20 +1,49 @@
 /*
 Indotuber CSS Style
 Author @briandito
+
+COLOR SCHEME
+#A62671 Darkest
+#DB466B Dark
+#F96C48 Light
+#F5D773 Lightest
 */
 
-/*GENERAL*/
+/*GLOBAL CLASSES*/
 html, body{
     font-family: 'Quicksand', sans-serif;
     color: #505050;
 }
+a{
+    color: #DB466B;
+    cursor: pointer;
+}
+a:hover,
+a:focus,
+a:active{
+    color: #F5D773;
+}
+.form-group input.form-control{
+    height: 40px;
+    font-size: 12px;
+    display: inline-block;
+    border: 1px solid #ddd;
+    box-shadow: none;
+}
+hr{
+    border-color: #ddd;
+}
+ul,ol{
+    padding: 0px;
+}
+/*EOF GLOBAL CLASSES*/
 
 /*NAVIGATION*/
 #navigation{
     height: 60px;
     box-shadow: 0px 0px 5px #505050;
 }
-#navigation .container{
+.nav-wrapper{
     width: 1024px;
     margin: 0 auto;
 }
@@ -26,7 +55,6 @@ html, body{
     text-indent: 9999px;
     
     margin-top: 10px;
-    margin-left: 10px;
     
     background-image: url(../assets/logo/logo-svg.svg);
     background-repeat: no-repeat;
@@ -45,7 +73,125 @@ html, body{
     padding: 10px;
     color: #505050;
 }
-.navigation-menu__items a{
-    padding: 10px;
-    color: #505050;
+.navigation-menu__items a:active,
+.navigation-menu__items a:focus,
+.navigation-menu__items a:hover{
+    color: #DB466B;
+    text-decoration: none;
 }
+
+@media(max-width:1080px){
+    #navigation-logo{
+        margin-left: 20px;
+    }
+}
+
+/*mobile nav*/
+@media(max-width:767px){
+    .nav-wrapper{
+        width: 100%;
+    }
+    .navigation-menu{
+        width: 100%;
+        margin-bottom: 0px;
+        margin-top: 10px;
+    }
+    .navigation-menu__items{
+        margin: 0px;
+    }
+    .navigation-menu__items a{
+        text-align: center;
+        display: block;
+        border-radius: 0;
+        border-bottom: 1px solid #ddd;
+        padding: 15px;
+    }
+}
+
+/*burger for mobile*/
+/* Icon 4 */
+
+#burger {
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  right: 20px;
+  top: 16px;
+  -webkit-transform: rotate(0deg);
+  -moz-transform: rotate(0deg);
+  -o-transform: rotate(0deg);
+  transform: rotate(0deg);
+  -webkit-transition: .5s ease-in-out;
+  -moz-transition: .5s ease-in-out;
+  -o-transition: .5s ease-in-out;
+  transition: .5s ease-in-out;
+  cursor: pointer;
+}
+
+#burger span {
+  display: block;
+  position: absolute;
+  height: 5px;
+  width: 100%;
+  background: #DB466B;
+  border-radius: 9px;
+  opacity: 1;
+  left: 0;
+  -webkit-transform: rotate(0deg);
+  -moz-transform: rotate(0deg);
+  -o-transform: rotate(0deg);
+  transform: rotate(0deg);
+  -webkit-transition: .25s ease-in-out;
+  -moz-transition: .25s ease-in-out;
+  -o-transition: .25s ease-in-out;
+  transition: .25s ease-in-out;
+}
+
+#burger span:nth-child(1) {
+  top: 0px;
+  -webkit-transform-origin: left center;
+  -moz-transform-origin: left center;
+  -o-transform-origin: left center;
+  transform-origin: left center;
+}
+
+#burger span:nth-child(2) {
+  top: 10px;
+  -webkit-transform-origin: left center;
+  -moz-transform-origin: left center;
+  -o-transform-origin: left center;
+  transform-origin: left center;
+}
+
+#burger span:nth-child(3) {
+  top: 20px;
+  -webkit-transform-origin: left center;
+  -moz-transform-origin: left center;
+  -o-transform-origin: left center;
+  transform-origin: left center;
+}
+
+#burger.active span:nth-child(1) {
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+  transform: rotate(45deg);
+  top: 0px;
+  left: 0px;
+}
+
+#burger.active span:nth-child(2) {
+  width: 0%;
+  opacity: 0;
+}
+
+#burger.active span:nth-child(3) {
+  -webkit-transform: rotate(-45deg);
+  -moz-transform: rotate(-45deg);
+  -o-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+  top: 21px;
+  left: 0px;
+}
+
+/*EOF NAVIGATION*/
