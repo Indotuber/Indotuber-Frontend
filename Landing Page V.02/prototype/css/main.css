@@ -38,6 +38,10 @@ ul,ol{
 }
 /*EOF GLOBAL CLASSES*/
 
+
+
+
+
 /*NAVIGATION*/
 #navigation{
     height: 60px;
@@ -55,6 +59,7 @@ ul,ol{
     text-indent: 9999px;
     
     margin-top: 10px;
+    margin-right: 20px;
     
     background-image: url(../assets/logo/logo-svg.svg);
     background-repeat: no-repeat;
@@ -64,6 +69,12 @@ ul,ol{
     list-style: none;
     float: left;
     margin-top: 20px;
+    display: block;
+}
+@media(min-width:768px){
+    .navigation-menu{
+        display: block!important;
+    }
 }
 .navigation-menu__items{
     display: inline;
@@ -95,6 +106,7 @@ ul,ol{
         width: 100%;
         margin-bottom: 0px;
         margin-top: 10px;
+        display: none;
     }
     .navigation-menu__items{
         margin: 0px;
@@ -193,5 +205,8 @@ ul,ol{
   top: 21px;
   left: 0px;
 }
-
 /*EOF NAVIGATION*/
+
+
+
+
