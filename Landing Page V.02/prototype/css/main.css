@@ -230,7 +230,6 @@ ul,ol{
 }
 .section-1__title h1{
     font-weight: 700;
-    font-size: 30px;
     line-height: 1.2;
 }
 .section-1__sub-title{
@@ -301,6 +300,25 @@ p.section-1__card__sk__text{
     height: 100%;
     padding-bottom: 50px;
     
-   
-    background-color: aquamarine;
+    background-image: url(../assets/bg-pattern.png);
+    background-size: 300px 300px;
+    background-repeat: repeat;
+}
+
+.section-2__title{
+    text-align: center;
+    margin-top: 50px;
+    color:#DB466B;
+}
+img.section-2__indotuber-logo{
+    width: 100%;
+    max-width: 100px;
+    height: auto;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+.section-2__content{
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 30px;
 }
