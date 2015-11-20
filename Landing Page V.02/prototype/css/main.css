@@ -51,6 +51,9 @@ ul,ol{
 .color-lightest-red{
     color:#F5D773;
 }
+.bg-eee{
+    background-color: #eee;
+}
 /*EOF SHORTHANDS*/
 
 /*NAVIGATION*/
@@ -73,7 +76,6 @@ ul,ol{
 }
 .nav-wrapper{
     width: 100%;
-    max-width: 1024px;
     margin: 0 auto;
     padding-left: 20px;
     padding-right: 20px;
@@ -321,4 +323,28 @@ img.section-2__indotuber-logo{
     text-align: center;
     margin: 0 auto;
     margin-top: 30px;
+    font-size: 16px;
+}
+
+/*SECTION-3*/
+#section-3{
+    background: #f5d773  ;
+}
+#section-4{
+    background: #f7f7f7;
+}
+#section-5{
+    
+}
+.section-3__content{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.section-3__content__copy{
+    font-size: 16px;
+}
+.section-3__content__img{
+    width: auto;
+    height: auto;
+    max-height: 200px;
 }
