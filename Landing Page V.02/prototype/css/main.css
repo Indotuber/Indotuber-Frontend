@@ -59,7 +59,12 @@ ul,ol{
 /*NAVIGATION*/
 #navigation{
     height: 60px;
+    width: 100%;
     box-shadow: 0px 0px 5px #505050;
+    position: fixed;
+    margin: 0 auto;
+    background: white;
+    z-index: 3;
 }
 #navigation-logo{
     width: 140px;
@@ -85,13 +90,14 @@ ul,ol{
     float: left;
     margin-top: 20px;
     display: block;
+    background: white
 }
 @media(min-width:768px){
     #navigation-logo{
         margin-right: 20px;
     }
     .navigation-menu{
-        display: block!important;
+        display: block;
     }
 }
 .navigation-menu__items{
@@ -101,6 +107,7 @@ ul,ol{
 .navigation-menu__items a{
     padding: 10px;
     color: #505050;
+
 }
 .navigation-menu__items a:active,
 .navigation-menu__items a:focus,
@@ -125,6 +132,13 @@ ul,ol{
         display: block;
         border-radius: 0;
         border-bottom: 1px solid #ddd;
+        padding: 15px;
+    }
+    .navigation-menu__items:last-child a{
+        text-align: center;
+        display: block;
+        border-radius: 0;;
+        box-shadow: 0px 3px 5px -2px #505050;
         padding: 15px;
     }
 }
@@ -219,12 +233,18 @@ ul,ol{
 /*Section-1 HERO*/
 #section-1{
     height: auto;
+    padding-top: 20px;
     padding-bottom: 100px;
     
     background-image:url(../assets/Illustration/background.jpg);
     background-size: 80%;
     background-position: 255% 100%;
     background-repeat: repeat-x;
+}
+@media(max-width:767px){
+    #section-1{
+        padding-top: 60px;
+    }
 }
 .section-1__title{
     text-align: center;
@@ -305,6 +325,8 @@ p.section-1__card__sk__text{
     background-image: url(../assets/bg-pattern.png);
     background-size: 300px 300px;
     background-repeat: repeat;
+    background-attachment: fixed;
+    z-index: -1;
 }
 
 .section-2__title{
@@ -328,13 +350,12 @@ img.section-2__indotuber-logo{
 
 /*SECTION-3*/
 #section-3{
-    background: #f5d773  ;
+    background: #FFF7AA  ;
 }
 #section-4{
-    background: #f7f7f7;
 }
 #section-5{
-    
+    background: #f7f7f7;
 }
 .section-3__content{
     padding-top: 50px;
@@ -348,3 +369,31 @@ img.section-2__indotuber-logo{
     height: auto;
     max-height: 200px;
 }
+@media(max-width:767px){
+    .section-3__content__img{
+        text-align: center;
+        margin: 0 auto;
+    }
+}
+/*section-6*/
+
+#section-6{
+    height: auto;
+    padding-bottom: 100px;
+    
+    background-image:url(../assets/Illustration/background.jpg);
+    background-size: 80%;
+    background-position: 55% 100%;
+    background-repeat: no-repeat;
+}
+/*EOF Section-6*/
+
+/*footer*/
+#footer{
+    height: 100%;
+    background-color: #f5d773;
+}
+#footer p{
+    margin-top: 6px;
+}
+/*eof Footer*/

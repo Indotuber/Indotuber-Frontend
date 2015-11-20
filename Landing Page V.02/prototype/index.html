@@ -44,7 +44,7 @@
     <nav id="navigation">
         <div class="container">
             <a href="http://www.indotuber.com" id="navigation-logo">Indotuber</a>
-            <ul class="navigation-menu">
+            <ul class="navigation-menu hidden-xs">
                 <li class="navigation-menu__items">
                     <a href="#home">Home</a>
                 </li>    
@@ -64,6 +64,18 @@
             </div>
         
         </div>
+        
+        <ul class="navigation-menu hidden-lg hidden-md hidden-sm">
+            <li class="navigation-menu__items">
+                <a href="#home">Home</a>
+            </li>    
+            <li class="navigation-menu__items">
+                <a href="#tentang">Tentang</a>
+            </li>      
+            <li class="navigation-menu__items">
+                <a href="#mengapa">Mengapa Bergabung</a>
+            </li>    
+        </ul>
     </nav>
     
     <div id="section-1">
@@ -190,9 +202,54 @@
         </div>
     </div>
     
-    
+    <div id="section-6">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 col-sm-12 col-xs-12">
+                    <div class="section-1__title">
+                        <h3><b class="color-dark-red">Bergabung Sekarang</b></h3>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                    <div class="section-1__card">
+                        <form role="form">
+                            <div class="form-group">
+                                <label for="">Link Channel Kamu</label>
+                                <input type="text" class="form-control input-lg" placeholder="">
+                            </div>
+                            <div class="form-group">
+                                <label for="">E-mail Kamu</label>
+                                <input type="email" class="form-control input-lg" placeholder="">
+                            </div>
+                            <div class="form-group">
+                                <label for="">Tentang Channel Kamu</label>
+                                <input type="text" class="form-control input-lg" placeholder="">
+                            </div>
+                            <div id="section-1__card__sk" class="form-group">
+                                <input type="checkbox" class="form-control section-1__card__sk__check" >
+                                <p class="section-1__card__sk__text">Saya telah menyetujui <a href="">Syarat dan Ketentuan</a></p>
+                            </div>
+                            <div class="row">
+                                <div class="col-xs-12 col-md-12">
+                                    <input type="submit" value="Daftar" class="btn btn-signup btn-block btn-lg" tabindex="7">
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+            </div>
+        </div>
+    </div>
             
-            
+    <footer id="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-md-offset-3 col-xs-12 text-center">
+                    <p>Copyright © Indotuber. All rights reserved.</p>
+                </div>
+            </div>
+        </div>
+    </footer>        
 
     <script type="text/javascript" src="js/jquery-1.11.3.min.js"></script>
     <script type="text/javascript" src="js/bootstrap.min.js"></script>
