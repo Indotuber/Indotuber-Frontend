@@ -32,28 +32,102 @@
     
     <meta name="viewport" content="width=device-width, initial-scale=1">
     
-<!--CSS Files-->\
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
-    <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+<!--CSS Files-->
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/bootstrap-theme.css">
+    <link href='https://fonts.googleapis.com/css?family=Lato:400' rel='stylesheet' type='text/css'>
+    
+<!--Custom CSS-->
+    <link href='css/css-reset.css' rel='stylesheet' type='text/css'>
+    <link href='css/main.css' rel='stylesheet' type='text/css'>
     
 
 </head>
 
 <body>
-    
-    <nav>
-        <div class="container">
-            <div class="nav-logo">
-                
-            </div>
-            <div class="nav-menu"></div>
+
+    <div id="slide-menu">
+        <ul class="slide-menu__list">
+            <li class="slide-menu__list__items"><a href="">Home</a></li>
+            <li class="slide-menu__list__items"><a href="">Category</a></li>
+            <li class="slide-menu__list__items"><a href="">Help</a></li>
+        </ul>
+        <div class="slide-menu__footer">
+            &copy;2015 IndoTuber All Rights Reserved
         </div>
-    </nav>
-
-
+    </div>
+    
+    
+    
+<!--body wrap-->
+    <div class="body-wrap">
+        <!--Navigation-->
+        <nav class="nav">
+            <div class="container">
+                <div class="nav-header">
+                    <div id="burger" class="pull-left">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                    <div class="nav-header__logo">indotuber</div>
+                </div>
+            </div>
+        </nav>
+        <!--EOF Navigation-->
+        
+<!--Main content-->
+        <!--video-->
+          <div id="main-content">
+               <div class="main-content__video">
+                    <div class="embed-responsive embed-responsive-16by9">
+                        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/JGhoLcsr8GA"></iframe>
+                    </div>
+                   <!--
+                    <div class="embed-responsive embed-responsive-16by9">
+                        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/JGhoLcsr8GA"></iframe>
+                    </div>
+-->
+                   
+                    <div class="main-content__video__title">
+                        <h3>The Kost Challenge #2: Running Mandwdwdwdw dw dw wfwrwrw rwfwfw wrw rwr wrwrwrwrw w</h3>
+                        <span class="main-content__video__random">
+                            <button class="btn btn-danger btn-random">Next Video</button>
+                        </span>
+                    </div>
+               </div>
+               <div class="main-content__info">
+                   <div class="main-content__info__profile">
+                       <img src="assets/Brian.png" alt="">
+                       <div class="main-content__info__profile__channel">Indotuber Channel Name
+                       </div>
+                   </div>
+               </div>
+               <div class="main-content__info mt-10">
+                   <div class="main-content__info__desc">
+                       <h4>Video Description</h4>
+                       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut numquam at, ratione, eum dignissimos magnam ab! Adipisci consequatur quod tenetur vel ea ratione repudiandae perferendis, ducimus cum, doloribus quaerat perspiciatis.</p>
+                   </div>
+               </div>
+               <div class="main-content__info mt-10">
+                   <div class="main-content__info__category">
+                       <button class="btn btn-default btn-category">Komedi</button>
+                       <button class="btn btn-default btn-category">Variety</button>
+                       <button class="btn btn-default btn-category">Drama</button>
+                   </div>
+               </div>
+          </div>
+           
+<!--EOF Main content-->
+        
+    </div>
+<!--EOF body wrap-->
+    
+    
+    
     <script type="text/javascript" src="js/jquery-1.11.3.min.js"></script>
     <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
 </body>
 
 </html>
