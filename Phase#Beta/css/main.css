@@ -238,19 +238,22 @@ a:hover, a:active{
 .main-content__video__title{
     padding: 15px 10px;
 }
-.main-content__video__title h3{
-    width: 75%;
-    font-size: 18px;
-    display: inline-block;
-}
-.main-content__video__title .btn-random{
-    margin-left: 5px;
-    width: 20%;
+.btn-random{
+    width: 80%;
+    height: 100%;
+    margin: 0 auto;
+    margin-top: 15px;
+    text-align: center;
     font-size: 12px;
-    display: inline-block;
-    background: #BF4A67;
+    display: block;
+    background: #44B39D;
     border: none;
-    float: right;
+}
+@media(max-width:767px){
+    .btn-random{
+        margin-top: 0;
+        margin-bottom: 15px;
+    }
 }
 .main-content__info{
     width: 30%;
