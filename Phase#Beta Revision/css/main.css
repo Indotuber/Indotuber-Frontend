@@ -200,9 +200,7 @@ a:hover, a:active{
 }
 @media(min-width:768px){
     #slide-menu{
-        width: 25%;
         max-width: 250px;
-        position: absolute;
         float: left;
         height: calc(100vh - 50px);
         z-index: 0;
@@ -232,41 +230,28 @@ a:hover, a:active{
 /*EOF Sidemenu*/
 
 
-
-
-/*Main Content*/
-#main-content{
-    width: 90%;
-    max-width: 960px;
-    padding: 15px;
-    margin: 0 auto;
-    margin-top: 30px;
+#content-wrapper{
+    z-index: 0;
 }
+
 @media(min-width:768px){
-    #main-content{
-        float: left;
-        position: relative;
-        z-index: 0;
-        width: 73%;
-        margin: 0 auto;
-        margin-left: 25%;
+    #content-wrapper{
+        -webkit-transform: translate(250px,0);
+        -moz-transform: translate(250px,0);
+        -o-transform: translate(250px,0);
+        transform: translate(250px,0);
         margin-top: 30px;
     }
 }
+
+/*Main Content*/
 .main-content__video{
-    width: 65%;
-    margin-right: 10px;
-    float: left;
-    box-shadow: 0 2px 1px 0 #cccccc;
-    padding-bottom: 0;
+    margin: 0 auto;
+    max-width: 640px;
 }
 .main-content__video__title{
-    padding: 15px 10px;
 }
 .main-content__video__title h3{
-    width: 75%;
-    font-size: 18px;
-    display: inline-block;
 }
 .main-content__video__title .btn-random{
     margin-left: 5px;
@@ -277,9 +262,7 @@ a:hover, a:active{
     border: none;
 }
 .main-content__info{
-    width: 30%;
     background-color: #f7f7f7;
-    float: left;
     box-shadow: 0 2px 1px 0 #cccccc;
     padding: 10px;
 }
@@ -319,19 +302,28 @@ a:hover, a:active{
     font-size: 12px;
     padding: 5px;
 }
-
-@media(max-width:768px){
-    #main-content{
+@media(max-width:992px){
+    #content-wrapper{
         margin-top: 10px;
+        padding-left: 0;
+        padding-right: 0;
     }
     .main-content__video{
-        width: 100%;
+        margin: 0 auto;
+        max-width: 100%;
     }
     .main-content__info{
         width: 100%;
+        margin: 0 auto;
         margin-top: 10px;
-        margin-right: 0px;
     }
 }
-
+@media(max-width:768px){
+    #main-content{
+        padding: 0;
+    }
+    .main-content__info{
+        width: 95%;
+    }
+}
 /*EOF Main Content*/
