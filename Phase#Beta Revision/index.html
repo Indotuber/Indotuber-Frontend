@@ -46,7 +46,17 @@
 
 <body>
 
-
+<!--Social Script-->
+    <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+    <div id="fb-root"></div>
+    <script>(function(d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) return;
+      js = d.createElement(s); js.id = id;
+      js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.5&appId=83288138282";
+      fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));</script>
+    <script src="https://apis.google.com/js/platform.js" async defer></script>
     
     
     <!--Navigation-->
@@ -63,16 +73,30 @@
         </div>
     </nav>
     <!--EOF Navigation-->
-       
-        <div class="row">
+    
+    
+    
+    
+            <div class="row">
             <div id="slide-menu" class="col-lg-3 col-md-3 col-sm-4 col-xs-8">
                 ini sidebar
             </div>
             <div id="content-wrapper" class="col-lg-9 col-md-9 col-sm-8 col-xs-12">
-                <div class="row">
+                
+                <!--Main content-->
+
+                <div class="content-wrapper__items row">
                     <div id="main-content" class="col-lg-8 col-md-8 col-sm-12 col-xs-12">
                         <div class="main-content__video">
                             <img src="assets/sample.png" alt="" class="img-responsive">
+                        </div>
+                        <div class="row">
+                            <div class="main-content__video__title col-lg-9 col-md-9 col-sm-12 mt-10">
+                                <h3>The Kost Ep.3: Running Man</h3>
+                            </div>
+                            <div class="col-lg-3 col-md-3 col-sm-12 mt-10">
+                                <button class="btn-random">Next Video</button>
+                            </div>
                         </div>
                     </div>
                     <div  id="main-content" class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
@@ -96,10 +120,56 @@
                                 <button class="btn-category">Reality</button>
                             </div>
                         </div>
+                        <div class="main-content__info mt-10">
+                            <div class="main-content__info__category">
+                                <a href="https://twitter.com/share" class="twitter-share-button" {count} data-via="indotuber" data-hashtags="indotuber">Tweet</a>
+                                <div class="fb-share-button" data-href="https://developers.facebook.com/docs/plugins/" data-layout="button_count"></div>
+                                <div class="g-plus google-share-button" data-action="share" data-annotation="bubble" ></div>
+                            </div>
+                        </div>
                     </div>
                 </div>
+                
+                <!--EOF Main content-->
+    
+    
+    
+                <!--related videos-->
+                <div class="content-wrapper__items row">
+                    <div id="related-videos" class="col-md-12">
+                        <div class="row related-videos__border">
+                            <div class="col-md-4 col-xs-6 related-videos__video-wrap">
+                                <img src="assets/sample.png" alt="" class="img-responsive">
+                                <h4>The Kost Challenge 2</h4>
+                            </div>
+                            <div class="col-md-4 col-xs-6 related-videos__video-wrap">
+                                <img src="assets/sample.png" alt="" class="img-responsive">
+                                <h4>The Kost Challenge 2</h4>
+                            </div>
+                            <div class="col-md-4 col-xs-6 related-videos__video-wrap">
+                                <img src="assets/sample.png" alt="" class="img-responsive">
+                                <h4>The Kost Challenge 2</h4>
+                            </div>
+                            <div class="col-md-4 col-xs-6 related-videos__video-wrap">
+                                <img src="assets/sample.png" alt="" class="img-responsive">
+                                <h4>The Kost Challenge 2</h4>
+                            </div>
+                            <div class="col-md-4 col-xs-6 related-videos__video-wrap">
+                                <img src="assets/sample.png" alt="" class="img-responsive">
+                                <h4>The Kost Challenge 2</h4>
+                            </div>
+                            <div class="col-md-4 col-xs-6 related-videos__video-wrap">
+                                <img src="assets/sample.png" alt="" class="img-responsive">
+                                <h4>The Kost Challenge 2</h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--EOF related videos-->
             </div>
         </div>
+    
+    
         
     
     
