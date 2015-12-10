@@ -187,6 +187,7 @@ a:hover, a:active{
     background: #fbfbfb;
     border-right: 1px solid #ddd;
     border-bottom: 1px solid #ddd;
+    box-shadow: 3px 0px 5px #ddd;
     
     -webkit-transform: translate(-250px,0);
     -moz-transform: translate(-250px,0);
@@ -266,10 +267,12 @@ a:hover, a:active{
     box-shadow: 0 1px 1px 0 #cccccc;
     padding: 15px;
     border-top: 1px solid #eee;
+    border-left: 5px solid #E6567A;
 }
 .main-content__video__title h3{
     font-size: 20px;
     font-weight: 700;
+    line-height: 1.4;
 }
 .btn-random{
     display: inline-block;
@@ -288,7 +291,7 @@ a:hover, a:active{
 @media(max-width:992px){
     .btn-random{
         height: 30px;
-    font-size: 12px;
+        font-size: 12px;
     }
 }
 .btn-random:hover{
@@ -309,7 +312,6 @@ a:hover, a:active{
     max-height: 65px;
     max-width: 65px;
     float: left;
-    display: inline;
 }
 .main-content__info__profile__channel{
     padding:5px;
@@ -323,8 +325,6 @@ a:hover, a:active{
     font-size: 14px;
     line-height: 1.2;
     color: #7b7b7b;
-    max-height: 100px;
-    overflow-y: scroll;
 }
 .main-content__info__category .btn-category{
     background: #E6567A;
@@ -343,6 +343,9 @@ a:hover, a:active{
     .main-content__video{
         margin: 0 auto;
         max-width: 100%;
+    }
+    .main-content__video__title{
+        margin: 10px;
     }
     .main-content__info{
         width: 100%;
@@ -374,13 +377,29 @@ a:hover, a:active{
 .related-videos__border{
     padding: 5px;
     border: 1px solid #ddd;
+    box-shadow: 0 1px 1px 0 #cccccc;
+}
+.related-videos__title{
+    display: block;
+    padding: 10px;
+    margin-bottom: 10px;
+    font-size: 20px;
+    font-weight: 700;
+    border: 1px solid #ddd;
+    border-left: 5px solid #E6567A;
+    box-shadow: 0 1px 1px 0 #cccccc;
 }
 .related-videos__video-wrap{
     padding: 10px;
     margin-bottom: 10px;
 }
 .related-videos__video-wrap h4{
-    padding-top: 10px;
+    margin-top: 5px;
+    padding: 5px;
+    font-size: 12px;
     font-weight: 700;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 /*EOF related videos*/
