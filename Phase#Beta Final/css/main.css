@@ -232,10 +232,15 @@ color:#BF4A67 ;
     max-height: 70px;
     max-width: 70px;
 }
+.channel__shuffle-row{
+    padding-right: 0;
+    margin-top: 10px;
+}
 .btn-shuffle{
     background: #E6567A;
     color: white;
     width: 100%;
+    max-width: 100%;
     font-size: 15px;
     height: 50px;
 }
@@ -249,11 +254,22 @@ color:#BF4A67 ;
     padding: 5px;
     border-radius: 5px;
 }
-/*E6567A
-BF4A67*/
 #channel-video-desc{
     display: none;
 }
 #channel-video-desc.active{
     display: block;
+}
+
+@media(max-width:991px){
+    .btn-shuffle{
+        margin-bottom: 10px;
+    }
+    .channel__shuffle-row{
+        padding-left: 0;
+    }
+    .row.channel__card{
+        margin-left: 0px;
+        margin-right: 0px;
+    }
 }
