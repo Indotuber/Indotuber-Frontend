@@ -254,12 +254,6 @@ color:#BF4A67 ;
     padding: 5px;
     border-radius: 5px;
 }
-#channel-video-desc{
-    display: none;
-}
-#channel-video-desc.active{
-    display: block;
-}
 
 @media(max-width:991px){
     .btn-shuffle{

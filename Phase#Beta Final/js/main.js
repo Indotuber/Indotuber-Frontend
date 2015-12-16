@@ -9,15 +9,16 @@ $(document).ready(function(){
     });
 
     
+    $('#channel-video-desc').hide();
     
     $('#btn-video-desc').click(function(){
         if($('#channel-video-desc').hasClass('active')){
+            $('#channel-video-desc').removeClass('active');
             $('#channel-video-desc').slideUp('slow');
-            $('#channel-video-desc').toggleClass('active');
         }
         else{
+            $('#channel-video-desc').addClass('active');
             $('#channel-video-desc').slideDown('slow');
-            $('#channel-video-desc').toggleClass('active');
         }
         
         return false;
