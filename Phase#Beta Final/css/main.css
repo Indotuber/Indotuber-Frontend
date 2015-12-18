@@ -148,6 +148,9 @@ color:#BF4A67 ;
     border: none!important;
     box-shadow: none!important;
 }
+.block{
+    display: block;
+}
 /*Navigation*/
 .nav{
     background-color: white;
