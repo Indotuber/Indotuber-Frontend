@@ -7,22 +7,9 @@ $(document).ready(function(){
         
         return false;
     });
-
     
-    
-    $('#btn-video-desc').click(function(){
-        if($('#channel-video-desc').hasClass('active')){
-            $('#channel-video-desc').slideUp('slow');
-            $('#channel-video-desc').toggleClass('active');
-        }
-        else{
-            $('#channel-video-desc').slideDown('slow');
-            $('#channel-video-desc').toggleClass('active');
-        }
-        
-        return false;
+    $('#collapsible-desc').click(function(){
+        $(this).children().toggleClass("active");
     });
-    
-    
 
 });
