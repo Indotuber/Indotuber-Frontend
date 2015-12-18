@@ -7,23 +7,9 @@ $(document).ready(function(){
         
         return false;
     });
-
     
-    $('#channel-video-desc').hide();
-    
-    $('#btn-video-desc').click(function(){
-        if($('#channel-video-desc').hasClass('active')){
-            $('#channel-video-desc').removeClass('active');
-            $('#channel-video-desc').slideUp('slow');
-        }
-        else{
-            $('#channel-video-desc').addClass('active');
-            $('#channel-video-desc').slideDown('slow');
-        }
-        
-        return false;
+    $('#collapsible-desc').click(function(){
+        $(this).children().toggleClass("active");
     });
-    
-    
 
 });
