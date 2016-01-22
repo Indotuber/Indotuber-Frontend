@@ -1,0 +1,345 @@
+/*******************************
+        GLOBAL CLASS
+*******************************/
+
+body,
+html {
+    width: 100%;
+    height: 100%;
+    font-family: "Ubuntu","Helvetica Neue",Helvetica,Arial,sans-serif;
+    color: #333;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+
+.btn {
+    border: none;
+    font-family: inherit;
+    font-size: inherit;
+    color: inherit;
+    background: none;
+    cursor: pointer;
+    padding: 5px 15px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 700;
+    outline: none;
+    position: relative;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+.btn-dark-red:hover {
+    box-shadow: 0 2px #752252;
+    top: 2px;
+    color:white;
+}
+.btn-dark-red:active {
+    box-shadow: 0 0 #752252;
+    top: 6px;
+    color:white;
+}
+
+.btn-red:hover {
+    box-shadow: 0 2px #b8466b;
+    top: 2px;
+    color:white;
+}
+.btn-red:active {
+    box-shadow: 0 0 #b8466b;
+    top: 6px;
+    color:white;
+}
+.btn-red {
+    background: #db466b;
+    color: #fff;
+    box-shadow: 0 4px #b8466b;
+    -webkit-transition: none;
+    -moz-transition: none;
+    transition: none;
+    border-radius: 5px;
+}
+.btn-dark-red {
+    background: #a62670;
+    color: #fff;
+    box-shadow: 0 4px #752252;
+    -webkit-transition: none;
+    -moz-transition: none;
+    transition: none;
+    border-radius: 5px;
+}
+
+/******************************
+          Navigation
+******************************/
+.topnav {
+    font-size: 14px;
+}
+
+.navbar-idtuber{
+    background-color: white;
+    border-bottom: 1px solid #eee;
+}
+
+.navbar-idtuber__logo{
+    width: 160px;
+    height: 40px;
+    float: left;
+    text-indent: -9999px;
+    margin-top: -10px;
+    background-image: url('../img/idtuber-icon.svg');
+    background-repeat: no-repeat;
+}
+.navbar .nav button{
+    display: block;
+    position: relative;
+    margin: 8px;
+    margin-left: 10px;
+}
+
+.navbar-toggle{
+    border: 1px solid #333!important;
+}
+
+.navbar-idtuber .navbar-toggle:hover{
+    background: #f5f5f5;
+}
+
+.navbar-idtuber .navbar-toggle .icon-bar {
+    background-color: #333;
+}
+
+.navbar-idtuber li a{
+    color: #727272;
+    margin-top: 7px;
+    padding: 8px;
+    margin-left: 10px;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+.navbar-idtuber li a:hover{
+    color: #333;
+}
+
+@media(max-width:992px){
+    .navbar-idtuber__logo{
+        width: 120px;
+        height: 30px;
+        margin-top: -5px;
+    }
+}
+
+@media(max-width:767px){
+   .navbar .nav button{
+        width: 95%;
+        margin: 0 auto;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+   
+   .navbar .nav li a{
+        width: 95%;
+        margin: 0 auto;
+        text-align: center;
+        margin-bottom: 5px;
+       border-radius: 5px;
+    }
+}
+
+/******************************
+        EOF Navigation
+******************************/
+
+
+
+
+
+
+/******************************
+        Content Global
+******************************/
+
+.content{
+    padding-top: 80px;
+    padding-bottom: 50px;
+}
+.content__video-title{
+    font-size: 20px;
+    line-height: 1.2;
+    margin-bottom: 30px;
+}
+.content .btn-random{
+    margin-top: 20px;
+    width: 100%;
+}
+.content__other-videos{
+    background: #f5f5f5;
+    padding: 10px;
+}
+.content__other-videos .thumbnail{
+    padding: 0; 
+    margin-bottom: 0px; 
+    margin-top: 5px;
+    background-color: transparent; 
+    border: none; 
+}
+
+/******************************
+        EOF Content
+******************************/
+
+
+.lead {
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.intro-header {
+    padding-top: 50px; /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
+    padding-bottom: 50px;
+    text-align: center;
+    color: #f8f8f8;
+    background: url(../img/intro-bg.jpg) no-repeat center center;
+    background-size: cover;
+}
+
+.intro-message {
+    position: relative;
+    padding-top: 20%;
+    padding-bottom: 20%;
+}
+
+.intro-message > h1 {
+    margin: 0;
+    text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
+    font-size: 5em;
+}
+
+.intro-divider {
+    width: 400px;
+    border-top: 1px solid #f8f8f8;
+    border-bottom: 1px solid rgba(0,0,0,0.2);
+}
+
+.intro-message > h3 {
+    text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
+}
+
+@media(max-width:767px) {
+    .intro-message {
+        padding-bottom: 15%;
+    }
+
+    .intro-message > h1 {
+        font-size: 3em;
+    }
+
+    ul.intro-social-buttons > li {
+        display: block;
+        margin-bottom: 20px;
+        padding: 0;
+    }
+
+    ul.intro-social-buttons > li:last-child {
+        margin-bottom: 0;
+    }
+
+    .intro-divider {
+        width: 100%;
+    }
+}
+
+.network-name {
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 2px;
+}
+
+.content-section-a {
+    padding: 50px 0;
+    background-color: #f8f8f8;
+}
+
+.content-section-b {
+    padding: 50px 0;
+    border-top: 1px solid #e7e7e7;
+    border-bottom: 1px solid #e7e7e7;
+}
+
+.section-heading {
+    margin-bottom: 30px;
+}
+
+.section-heading-spacer {
+    float: left;
+    width: 200px;
+    border-top: 3px solid #e7e7e7;
+}
+
+.banner {
+    padding: 100px 0;
+    color: #f8f8f8;
+    background: url(../img/banner-bg.jpg) no-repeat center center;
+    background-size: cover;
+}
+
+.banner h2 {
+    margin: 0;
+    text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
+    font-size: 3em;
+}
+
+.banner ul {
+    margin-bottom: 0;
+}
+
+.banner-social-buttons {
+    float: right;
+    margin-top: 0;
+}
+
+@media(max-width:1199px) {
+    ul.banner-social-buttons {
+        float: left;
+        margin-top: 15px;
+    }
+}
+
+@media(max-width:767px) {
+    .banner h2 {
+        margin: 0;
+        text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
+        font-size: 3em;
+    }
+
+    ul.banner-social-buttons > li {
+        display: block;
+        margin-bottom: 20px;
+        padding: 0;
+    }
+
+    ul.banner-social-buttons > li:last-child {
+        margin-bottom: 0;
+    }
+}
+
+footer {
+    padding: 50px 0;
+    background-color: #f8f8f8;
+}
+
+p.copyright {
+    margin: 15px 0 0;
+}
