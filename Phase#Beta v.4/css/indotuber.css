@@ -1,7 +1,127 @@
 /*******************************
-        GLOBAL CLASS
+GLOBAL CLASS CSS
+Indotuber v.1.04 - "Naked Lady"
+
+                          ,.--..
+                       ,:'.   .,'V:.::..  .
+                     ,::.,..  . . 'VI:I'.,:-.,.
+                    :I:I:.. .   .    MHMHIHI:MHHI:I:,.:.
+                   :I:I:.. .   .    MHMHIHI:MHHI:I:,.:.
+                   A:I::. ...  .   .MMHHIIHIHI:IHHII:.:,
+                  .M:I::... ..   . AMMMMMHI::IHII::II.::.
+                  IMA'::.:.. .    .MMMMMHHII:IMHIHIA:::',
+                  ,MV.:.:.. .     AMMMMHMHI:I:HIHHIIIA;.
+                   P.:.:.. .  .  .MMMMMMMHHIIMHHHIIHIIH.
+                   :..:.. . .    AMMMMMMMHHI:AMIVHI:HIII:
+                  ,:. :.. .  .    MMMMMMMMMH:IHHI:HHI:HIIH.
+                  :..:...  .    .MMMHP:'',,,:HHIH:HHH:HIII
+                 ;.:..:.. .     AMH:'. , , ,,':HII:HHH:HII:
+                 ::..:.. . .   .H:,.. .     ,'.:VA:I:H::HI:
+                ;.:.:... ..    A:.,...     .   ,:HA:IHI::I:
+               ,::..:. . .    .M::. .    .      ,:HA:HH:II:.
+               ;.::... ..     AML;,,,       .    .:VHI:HI:I:;
+              ,:.:.:. . .    .H. 'PA,           .:IHH:HHII::.
+             ,:.::... ..     A:I:::';, .   .  ,ILIIIH:HI:I:I;
+            ,;:.:.:.. . .   .H:TP'VB,)..   .,;T;,,::I:HI:I:::
+           ,::.:.:.. . .    AI:.':IAAT:.  .(,:BB,);V::IH:I:I;
+         ,::.:.:.. . .    .H:. , . . ..  .':;AITP;I:IIH:I::;,
+        ,::.::.:. . . .   A::.   . ..:.  .  . ..:AI:IHII:I::;.
+         ;:.::.:.. .  .   AM:I:.   ..:.   .: . .::HIIIHIIHII::.
+        ,:::.:.:..  .    .MM:I:..  .:,    .:.  .::HHIIIHIHII::;
+       ,::.:..:.. .   .  AMM:I:.  . .,'-'',,. ..::HIHI:HI:III:
+       ;:.::..:.. . .   AMMM::. . ,,,, ,..   ,.::IMHIHIHIIHI::;
+      ,:::.:..:. .   .  MMMM:I:.  ,:::;;;::;, .::AMHIHIHHIHHI:'
+      ;::.:.:.. . .   .:VMMV:A:. .  ,:;,,.'  .::AMMMIHIHHIHHII
+     ;::.:.:.. ..  .  .::VM:IHA:. .,,   , . ..:AMMMMHIHHHIHHII:
+     ;:::.:.. .  .. . .::P::IHHAA.. .   .. .:AMMMMMMMIIHHIHHI::
+     ;::.:.. .  . .  ..:.:VIHHHIHHA::,,,,,:AMMMMMMMMMHIIHHHHII;
+     ;.::.. .    . .  ..:.;VHHIHI:IHIHHIHI:MMMMMMMMMMHIHHIHHII:
+     ::.:.. .     ..  ...:.::VHI:IIVIHIHII:MMMMMMMMMMMIHHIHHII:,
+     ;:..:. .    ..  . ..:.::::VAII:IIIIII:MMMMMMMMMMMIHHIIHIIHI
+     ,;:.. .        . .. ..:...:.VII::III:.VMMMMMMMMMHIHHHIHI::I,
+      ;:. . .    , . .. ... . .::.::V::II:..VMMMMMMMMHIHHHIHI::I;
+      ;:.. . .     . .. ..:..  .::...:VIITPL:VMMMMMMMVIHHHIH:. :;
+      ;:. .  .    . .. ... .   ..:.:.. .:IIIA:.MMMMMVI:HIHIH:. .:
+      I:. . .   . .. . .. . . . . ..:.. ..::IIA.VMMMVIHIIHIV:. .,
+      I:..    . . .. .... .  .   . .. ... .:.:IA:.VMVIMHIHIH:..:
+      I.. .  .  . ..... .       .  . .. . .. .:IIAV:HIMHHIHII:.;
+      :. ..   . . .:.. .          .  .. ... ..::.:CVI:MHHIHHI...
+      :..  . . .. ..:.               . . ... .:.:::VHA.VIHHMI:..
+      :. .. .  . ..:..        . .     . .  ..  .. ...:VIIHIHI: .
+      ,:.. .  . .::. .       .::,.      .    .  . .  ...V:IHII..
+       ;:.. .. .:I:.        ..:T'::.     .  . .  .  . .  .VIIH:.
+       ;:.:.. .:I:..        .::V:::.         . . . .  .    VIII..
+       ;:.. ..::::. .        ..::. .      .  . .. . .  .    VIII.
+       I:.:.. .:I:.           ..:.,        . . .. :. .  .    'VI:.
+       I::......::.  .                    . .. .:.:.:. .       'I:
+       II::.. ..::. .       .    .     . .. .. .::::.. .      .:.
+       II::.:. ..::. .  . .   .    .     .:. . .:I:::. .       .::HD
+       ,I:::.. .: . .. ..  .. . .    .  .::. . .:I:. .         .:V:
+        I:. .. .  . . ... ..  .. . .    .. ..  ..::.             .:.
+        I:.. .. .  ..:.. .. .. ..  . .      .   .                . :
+        ;:.... . ..:::I:.. ..:.. ... .::. . ... . ..              .I.
+        ::.:....::.::I:III:I::::I:II:I::.. .:.. . .:. .     .  . .AI:
+        ,::.:...:..::::::III::II::::::.. ...::. .  .::. . .. .  .AMMI.
+          :::.:.:. ..::::III:II:I:::.:. .. ..::.. ..  ..::,.  ..::HMMI:
+         ,:::.:.. ...::I:::I:I:::.:.. :. . ..::.. . . . .,PTIHI:IIHHI:.
+          ::I::.:...:::II:I::.:....:.:. . ...::. .  . .  .AI:IHI,,:,  ,.
+          ,:::.:... ..I::I::.:....:. .: .. ...::. .  .   III:II:.  ,
+           ,I:::..:...:.::I::.:..:. .: .. . ..:... .  .  III.I,
+            VI:::.::.::...:II::...:...:. . . .:::. . .   :,,
+            ,HI:I::.::.::..:II::.:..:.... . .:.:I:.. .   :
+             VI:I:I::.::.:...:I:::I:::.... ..:.:I::...   :
+             ,II:I::II:I:::.:.:I:III:I:... ....::::... .  :
+              VII::I::I::.::..:.::II::.:.. . .:.::::. .   .
+               VI:.:..::II:::..:..::.... .   ..::I::...  . .
+               ,I::.. ..::II::..:.::.... . ...::I:::.   .  .
+                V::.:.. .:I:II::.:..::.. .. ...:::I::..  . . .
+                I:::.:....::III:::.:..:.:.. .:.:II:::. .  . . .
+                I::.:::...:::II::.:.:.:... ...:II::.. . . . .  .
+                I::..:...:.:::.:.:.:.:..:.. .:II:. .. .    . .   .
+               .::.:.:....:.:::.:.:.:.:.: . .:I:... . . . . .  .  .
+               :.:.:...:.:.:::.::.:.::.... .:::.. .. .  . .  . .
+              .:. ..:.:.:::.:..::.::.:.. . .::.. .. . . .  . . .   :
+             .:. .:....::..:.:.:.:.:... .. .NI:.. . .. . . .  . .  :.
+            .:. . . ..:.:.::.::.::.::.::.. . :.:.. .. .. . . . . . .)O
+           .:.. ... .. ..:.::.::.:::.:..:.. . ..:.. .. .. . .. . . ,()
+           ::.:. ...:.. ..:..::..::.:.:.:.:. .:.:... .. .. .:.. ..0OO.
+          /:::.:...:.:..:..:..::.::.::.:..:..:.:..:.... ..:.:..:.()',
+        (0):::.::...:..:..:...::::I:.:I:.:.:.::.::..:.:...:..::O0O... .
+         : ::.:..:.:..:.:..:.:I:.::I:::I::.:I::.I:.::..:.:.::.:/0O/.. .
+        .:: ::I:.:..::.::.::.::I:::I::.:I::.::I::.:::.::.I::( ):.:..  .
+        '.:: ::I:.:..::.::.::.::I:::I::.:I::.::I::.:::.::.:I::( ):.:.. .
+        ::I:::,(,,)OO::.:.::.::III:::III::III::I:::::.:I:'V0O:., .   .
+       .:::I::I::-:000::..:::.::::III:I::I::II::I:::IIII( ),) .    . . .
+       .:.::I::II:I(,)(  )00):.::.::II:I:II:I:I:::III0OO'.M:M.   . . .
+       .. .:.::.:I:I:IIHHI000 ,)OO:II:O:II:III::OO(')00//XXVM . .. . . .
+       . .. ..:.::.::II:II:III,(0O0'')!0:III:(0OO)..AMV AXXXXI .. .. . .
+       . :.. . .::I:IIIHHII:IHIHH(0),,0OOO( )M00AMMHMM,,XXXXXX.. . .  .
+      .:.:.:.. . ..:IHHHII::::.,.MMIIIMMXIMMMMMMMMMMV AXXXV:MI. .. .  .
+      ::.:.:.:.:.. . ,,., .. ..:.MMIII:MMIMMMMMMMMMMMM, .X::M.MI.. . . .
+     .::.::..::.:.:.:. .  .. .::AMMXXXIAMHMMIHMMMMMMV ...::M.MM ... . ..
+     ::.::.::.::.::.:.:.. . .:::MMXXXXI:.:VMMHMPMHVMI ..:I:H-,',,.:. . .
+    ::.::..:.:.:..:.:.::.:. . .:MMXXX:IXX:MMMMMLMMAM, ..I:M.  :  ,:.. .
+   .::.:..:...:...::.:.::I::...IMM:XXX:XX:LMMMMMI:MV  ..I:V   .   :... .
+   :.:.:..:.:.:..:..:::II:II:'..M'.VMXX:XXMMMMMMMI.I ...IVI   .  .::. ..
+  :.:.:.:.:.:.::...:.::IHI, - . .'VIMHX:XIIMMV/IMLMI ...HV     .  ::.. .
+ .::.:.:.:.:..:.. ..::IHI:-.  . .  ',IX:XXIVMI XMMV I...HI    .   :::...
+.::.:.:.:.:.:.. ...:.:IHHHI:., .    .XXX:XX.MMAXMHA I..AMI    .    ::...
+::.::.::.:.:.... .:.:IHHIHI'. ..    :XXX:XX:MHHIMMMAI,AHHI     .  :::...
+:::.:.:.:.:.:.. .:.::IHHHHI:  ..   ,:XXX:XX:MV''.I,V:,:HHI.    .   :::..
+::.::.:.:..:.. ...::IIHHHHI:   .   :.XXX:XXXI:.,.    '-VH:    .    ::.:.
+:::.::..:..:.. ..:.:IHHHHHI,   .    ::XX:XXXI:.A. .  'VHH      .   :::..
+::.::.::.:... ...:::IIHHHIH   ..    :IAX:XXXIHHH:  .  .:MI    .   .:::..
+:::.::.:..... ..:.::IIHHIHH   .     ::XX:IXXIHHV .     'V. . . .  :I:::.
+:.::.:.:... ...:.::IIIHHHIH    .    I:XX:XXVHMMI .      I.. .:. . .I::.:
+::.:::.:.... ..:.::IIIHIHHH.  .     :'XX:XXXVIVI  . .   ::..:. . .I::::.
+
 *******************************/
 
+
+
+/*******************************
+Global Main Classes
+*******************************/
 body,
 html {
     width: 100%;
@@ -37,7 +157,17 @@ h6 {
     -moz-transition: all 0.3s;
     transition: all 0.3s;
 }
+/*******************************
+EOF Global Main Classes
+*******************************/
 
+
+
+
+
+/*******************************
+Shorthand Classes
+*******************************/
 .btn-dark-red:hover {
     box-shadow: 0 2px #752252;
     top: 2px;
@@ -193,6 +323,13 @@ h6 {
 .pd-20{
     padding: 20px;
 }
+/*******************************
+    EOF Shorthand Classes
+*******************************/
+
+
+
+
 
 /******************************
           Navigation
@@ -283,101 +420,7 @@ h6 {
 
 
 
-/******************************
-        Content Global
-******************************/
 
-.content{
-    padding-top: 90px;
-    padding-bottom: 50px;
-}
-
-/*Right Panel*/
-.content__video-title{
-    font-size: 20px;
-    line-height: 1.2;
-    margin-bottom: 30px;
-}
-.content .btn-random{
-    margin-top: 20px;
-    width: 100%;
-}
-.content__other-videos{
-    background: #f5f5f5;
-    padding: 10px;
-}
-.content__other-videos .thumbnail{
-    padding: 0; 
-    margin-bottom: 0px; 
-    margin-top: 5px;
-    background-color: transparent; 
-    border: none; 
-}
-
-/*Left Panel*/
-.content__creator-info{
-    padding: 10px;
-    background: #f5f5f5;
-    border-radius: 5px;
-}
-.content__share{
-    padding: 10px 10px;
-    background: #f5f5f5;
-    border-radius: 5px;
-}
-.content__creator-img{
-    border-radius: 100%;
-    width: 70px;
-    height: 70px;
-}
-.content__video-desc{
-    background: #f5f5f5;
-    border-radius: 5px;
-}
-#video_desc__arrow.active {
-    -webkit-transform: rotate(0deg);
-    -moz-transform: rotate(0deg);
-    -o-transform: rotate(0deg);
-    transform: rotate(0deg);
-    -webkit-transition: .25s ease-in-out;
-    -moz-transition: .25s ease-in-out;
-    -o-transition: .25s ease-in-out;
-    transition: .25s ease-in-out;
-}
-#video_desc__arrow {
-    -webkit-transform: rotate(180deg);
-    -moz-transform: rotate(180deg);
-    -o-transform: rotate(180deg);
-    transform: rotate(180deg);
-    -webkit-transition: .25s ease-in-out;
-    -moz-transition: .25s ease-in-out;
-    -o-transition: .25s ease-in-out;
-    transition: .25s ease-in-out;
-}
-#video_desc {
-    -webkit-transition: all 0.3s;
-    -moz-transition: all 0.3s;
-    transition: all 0.3s;
-}
-
-#video_title h5 a {
-    display: block;
-    padding: 10px 0px;
-    padding-bottom: 0px;
-    color: #db466b;
-    text-decoration: none;
-}
-#video_title h5 a:hover,
-#video_title h5 a:focus,
-footer a:hover,
-footer a:focus{
-    color: #b8466b;
-    text-decoration: none;
-}
-
-/******************************
-        EOF Content
-******************************/
 
 
 
