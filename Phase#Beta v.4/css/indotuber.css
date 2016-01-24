@@ -440,6 +440,12 @@ footer a{
     color: #db466b;
 }
 
+footer a:hover,
+footer a:focus{
+    color: #b8466b;
+    text-decoration: none;
+}
+
 @media(max-width:767px){
     footer{
         padding: 10px;

@@ -83,9 +83,7 @@
     text-decoration: none;
 }
 #video_title h5 a:hover,
-#video_title h5 a:focus,
-footer a:hover,
-footer a:focus{
+#video_title h5 a:focus{
     color: #b8466b;
     text-decoration: none;
 }
