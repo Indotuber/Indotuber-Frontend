@@ -497,6 +497,7 @@ Shorthand Classes
 #hero h1{
     position: relative;
     vertical-align: middle;
+    font-size: 32px;
 }
 .hero__card{
     max-width: 300px;
