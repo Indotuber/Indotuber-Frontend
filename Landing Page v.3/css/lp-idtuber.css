@@ -476,7 +476,6 @@ Shorthand Classes
         Content
 ******************************/
 .content{
-    margin-top: 70px;
     padding: 50px 0px;
 }
 /******************************
@@ -491,6 +490,7 @@ Shorthand Classes
         Hero
 ******************************/
 #hero{
+    margin-top: 70px;
     position: relative;
     background-image: url(../assets/bg/hero-bg.jpg);
     background-size: cover;
