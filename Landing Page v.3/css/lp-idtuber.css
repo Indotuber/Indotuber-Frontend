@@ -492,12 +492,17 @@ Shorthand Classes
 ******************************/
 #hero{
     position: relative;
+    background-image: url(../assets/bg/hero-bg.jpg);
+    background-size: cover;
+    
+    background-position: center;
 }
 
 #hero h1{
     position: relative;
     vertical-align: middle;
     font-size: 32px;
+    color: white;
 }
 .hero__card{
     max-width: 300px;
@@ -514,6 +519,7 @@ Shorthand Classes
 
 #hero p{
     max-width: 600px;
+    color: white;
 }
 
 @media (min-width: 768px)
