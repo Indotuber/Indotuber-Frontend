@@ -1,11 +1,6 @@
 /******************************
-        Content Global
+        Content
 ******************************/
-
-.content{
-    padding-top: 90px;
-    padding-bottom: 50px;
-}
 
 /*Right Panel*/
 .content__video-title{
@@ -19,7 +14,8 @@
 }
 .content__other-videos{
     background: #f5f5f5;
-    padding: 10px;
+    padding: 10px 15px;
+    border-radius: 5px;
 }
 .content__other-videos .thumbnail{
     padding: 0; 
@@ -34,7 +30,10 @@
     padding: 10px;
     background: #f5f5f5;
     border-radius: 5px;
+    display: block;
+    position: relative;
 }
+
 .content__share{
     padding: 10px 10px;
     background: #f5f5f5;

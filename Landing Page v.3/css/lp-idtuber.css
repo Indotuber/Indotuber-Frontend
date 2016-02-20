@@ -1,472 +1,21 @@
 /*******************************
-GLOBAL CLASS CSS
-Indotuber v.1.04 - "Naked Lady"
+LANDING PAGE CSS
+Indotuber v.1.03 - "Dancing Testicles"
 
-                          ,.--..
-                       ,:'.   .,'V:.::..  .
-                     ,::.,..  . . 'VI:I'.,:-.,.
-                    :I:I:.. .   .    MHMHIHI:MHHI:I:,.:.
-                   :I:I:.. .   .    MHMHIHI:MHHI:I:,.:.
-                   A:I::. ...  .   .MMHHIIHIHI:IHHII:.:,
-                  .M:I::... ..   . AMMMMMHI::IHII::II.::.
-                  IMA'::.:.. .    .MMMMMHHII:IMHIHIA:::',
-                  ,MV.:.:.. .     AMMMMHMHI:I:HIHHIIIA;.
-                   P.:.:.. .  .  .MMMMMMMHHIIMHHHIIHIIH.
-                   :..:.. . .    AMMMMMMMHHI:AMIVHI:HIII:
-                  ,:. :.. .  .    MMMMMMMMMH:IHHI:HHI:HIIH.
-                  :..:...  .    .MMMHP:'',,,:HHIH:HHH:HIII
-                 ;.:..:.. .     AMH:'. , , ,,':HII:HHH:HII:
-                 ::..:.. . .   .H:,.. .     ,'.:VA:I:H::HI:
-                ;.:.:... ..    A:.,...     .   ,:HA:IHI::I:
-               ,::..:. . .    .M::. .    .      ,:HA:HH:II:.
-               ;.::... ..     AML;,,,       .    .:VHI:HI:I:;
-              ,:.:.:. . .    .H. 'PA,           .:IHH:HHII::.
-             ,:.::... ..     A:I:::';, .   .  ,ILIIIH:HI:I:I;
-            ,;:.:.:.. . .   .H:TP'VB,)..   .,;T;,,::I:HI:I:::
-           ,::.:.:.. . .    AI:.':IAAT:.  .(,:BB,);V::IH:I:I;
-         ,::.:.:.. . .    .H:. , . . ..  .':;AITP;I:IIH:I::;,
-        ,::.::.:. . . .   A::.   . ..:.  .  . ..:AI:IHII:I::;.
-         ;:.::.:.. .  .   AM:I:.   ..:.   .: . .::HIIIHIIHII::.
-        ,:::.:.:..  .    .MM:I:..  .:,    .:.  .::HHIIIHIHII::;
-       ,::.:..:.. .   .  AMM:I:.  . .,'-'',,. ..::HIHI:HI:III:
-       ;:.::..:.. . .   AMMM::. . ,,,, ,..   ,.::IMHIHIHIIHI::;
-      ,:::.:..:. .   .  MMMM:I:.  ,:::;;;::;, .::AMHIHIHHIHHI:'
-      ;::.:.:.. . .   .:VMMV:A:. .  ,:;,,.'  .::AMMMIHIHHIHHII
-     ;::.:.:.. ..  .  .::VM:IHA:. .,,   , . ..:AMMMMHIHHHIHHII:
-     ;:::.:.. .  .. . .::P::IHHAA.. .   .. .:AMMMMMMMIIHHIHHI::
-     ;::.:.. .  . .  ..:.:VIHHHIHHA::,,,,,:AMMMMMMMMMHIIHHHHII;
-     ;.::.. .    . .  ..:.;VHHIHI:IHIHHIHI:MMMMMMMMMMHIHHIHHII:
-     ::.:.. .     ..  ...:.::VHI:IIVIHIHII:MMMMMMMMMMMIHHIHHII:,
-     ;:..:. .    ..  . ..:.::::VAII:IIIIII:MMMMMMMMMMMIHHIIHIIHI
-     ,;:.. .        . .. ..:...:.VII::III:.VMMMMMMMMMHIHHHIHI::I,
-      ;:. . .    , . .. ... . .::.::V::II:..VMMMMMMMMHIHHHIHI::I;
-      ;:.. . .     . .. ..:..  .::...:VIITPL:VMMMMMMMVIHHHIH:. :;
-      ;:. .  .    . .. ... .   ..:.:.. .:IIIA:.MMMMMVI:HIHIH:. .:
-      I:. . .   . .. . .. . . . . ..:.. ..::IIA.VMMMVIHIIHIV:. .,
-      I:..    . . .. .... .  .   . .. ... .:.:IA:.VMVIMHIHIH:..:
-      I.. .  .  . ..... .       .  . .. . .. .:IIAV:HIMHHIHII:.;
-      :. ..   . . .:.. .          .  .. ... ..::.:CVI:MHHIHHI...
-      :..  . . .. ..:.               . . ... .:.:::VHA.VIHHMI:..
-      :. .. .  . ..:..        . .     . .  ..  .. ...:VIIHIHI: .
-      ,:.. .  . .::. .       .::,.      .    .  . .  ...V:IHII..
-       ;:.. .. .:I:.        ..:T'::.     .  . .  .  . .  .VIIH:.
-       ;:.:.. .:I:..        .::V:::.         . . . .  .    VIII..
-       ;:.. ..::::. .        ..::. .      .  . .. . .  .    VIII.
-       I:.:.. .:I:.           ..:.,        . . .. :. .  .    'VI:.
-       I::......::.  .                    . .. .:.:.:. .       'I:
-       II::.. ..::. .       .    .     . .. .. .::::.. .      .:.
-       II::.:. ..::. .  . .   .    .     .:. . .:I:::. .       .::HD
-       ,I:::.. .: . .. ..  .. . .    .  .::. . .:I:. .         .:V:
-        I:. .. .  . . ... ..  .. . .    .. ..  ..::.             .:.
-        I:.. .. .  ..:.. .. .. ..  . .      .   .                . :
-        ;:.... . ..:::I:.. ..:.. ... .::. . ... . ..              .I.
-        ::.:....::.::I:III:I::::I:II:I::.. .:.. . .:. .     .  . .AI:
-        ,::.:...:..::::::III::II::::::.. ...::. .  .::. . .. .  .AMMI.
-          :::.:.:. ..::::III:II:I:::.:. .. ..::.. ..  ..::,.  ..::HMMI:
-         ,:::.:.. ...::I:::I:I:::.:.. :. . ..::.. . . . .,PTIHI:IIHHI:.
-          ::I::.:...:::II:I::.:....:.:. . ...::. .  . .  .AI:IHI,,:,  ,.
-          ,:::.:... ..I::I::.:....:. .: .. ...::. .  .   III:II:.  ,
-           ,I:::..:...:.::I::.:..:. .: .. . ..:... .  .  III.I,
-            VI:::.::.::...:II::...:...:. . . .:::. . .   :,,
-            ,HI:I::.::.::..:II::.:..:.... . .:.:I:.. .   :
-             VI:I:I::.::.:...:I:::I:::.... ..:.:I::...   :
-             ,II:I::II:I:::.:.:I:III:I:... ....::::... .  :
-              VII::I::I::.::..:.::II::.:.. . .:.::::. .   .
-               VI:.:..::II:::..:..::.... .   ..::I::...  . .
-               ,I::.. ..::II::..:.::.... . ...::I:::.   .  .
-                V::.:.. .:I:II::.:..::.. .. ...:::I::..  . . .
-                I:::.:....::III:::.:..:.:.. .:.:II:::. .  . . .
-                I::.:::...:::II::.:.:.:... ...:II::.. . . . .  .
-                I::..:...:.:::.:.:.:.:..:.. .:II:. .. .    . .   .
-               .::.:.:....:.:::.:.:.:.:.: . .:I:... . . . . .  .  .
-               :.:.:...:.:.:::.::.:.::.... .:::.. .. .  . .  . .
-              .:. ..:.:.:::.:..::.::.:.. . .::.. .. . . .  . . .   :
-             .:. .:....::..:.:.:.:.:... .. .NI:.. . .. . . .  . .  :.
-            .:. . . ..:.:.::.::.::.::.::.. . :.:.. .. .. . . . . . .)O
-           .:.. ... .. ..:.::.::.:::.:..:.. . ..:.. .. .. . .. . . ,()
-           ::.:. ...:.. ..:..::..::.:.:.:.:. .:.:... .. .. .:.. ..0OO.
-          /:::.:...:.:..:..:..::.::.::.:..:..:.:..:.... ..:.:..:.()',
-        (0):::.::...:..:..:...::::I:.:I:.:.:.::.::..:.:...:..::O0O... .
-         : ::.:..:.:..:.:..:.:I:.::I:::I::.:I::.I:.::..:.:.::.:/0O/.. .
-        .:: ::I:.:..::.::.::.::I:::I::.:I::.::I::.:::.::.I::( ):.:..  .
-        '.:: ::I:.:..::.::.::.::I:::I::.:I::.::I::.:::.::.:I::( ):.:.. .
-        ::I:::,(,,)OO::.:.::.::III:::III::III::I:::::.:I:'V0O:., .   .
-       .:::I::I::-:000::..:::.::::III:I::I::II::I:::IIII( ),) .    . . .
-       .:.::I::II:I(,)(  )00):.::.::II:I:II:I:I:::III0OO'.M:M.   . . .
-       .. .:.::.:I:I:IIHHI000 ,)OO:II:O:II:III::OO(')00//XXVM . .. . . .
-       . .. ..:.::.::II:II:III,(0O0'')!0:III:(0OO)..AMV AXXXXI .. .. . .
-       . :.. . .::I:IIIHHII:IHIHH(0),,0OOO( )M00AMMHMM,,XXXXXX.. . .  .
-      .:.:.:.. . ..:IHHHII::::.,.MMIIIMMXIMMMMMMMMMMV AXXXV:MI. .. .  .
-      ::.:.:.:.:.. . ,,., .. ..:.MMIII:MMIMMMMMMMMMMMM, .X::M.MI.. . . .
-     .::.::..::.:.:.:. .  .. .::AMMXXXIAMHMMIHMMMMMMV ...::M.MM ... . ..
-     ::.::.::.::.::.:.:.. . .:::MMXXXXI:.:VMMHMPMHVMI ..:I:H-,',,.:. . .
-    ::.::..:.:.:..:.:.::.:. . .:MMXXX:IXX:MMMMMLMMAM, ..I:M.  :  ,:.. .
-   .::.:..:...:...::.:.::I::...IMM:XXX:XX:LMMMMMI:MV  ..I:V   .   :... .
-   :.:.:..:.:.:..:..:::II:II:'..M'.VMXX:XXMMMMMMMI.I ...IVI   .  .::. ..
-  :.:.:.:.:.:.::...:.::IHI, - . .'VIMHX:XIIMMV/IMLMI ...HV     .  ::.. .
- .::.:.:.:.:..:.. ..::IHI:-.  . .  ',IX:XXIVMI XMMV I...HI    .   :::...
-.::.:.:.:.:.:.. ...:.:IHHHI:., .    .XXX:XX.MMAXMHA I..AMI    .    ::...
-::.::.::.:.:.... .:.:IHHIHI'. ..    :XXX:XX:MHHIMMMAI,AHHI     .  :::...
-:::.:.:.:.:.:.. .:.::IHHHHI:  ..   ,:XXX:XX:MV''.I,V:,:HHI.    .   :::..
-::.::.:.:..:.. ...::IIHHHHI:   .   :.XXX:XXXI:.,.    '-VH:    .    ::.:.
-:::.::..:..:.. ..:.:IHHHHHI,   .    ::XX:XXXI:.A. .  'VHH      .   :::..
-::.::.::.:... ...:::IIHHHIH   ..    :IAX:XXXIHHH:  .  .:MI    .   .:::..
-:::.::.:..... ..:.::IIHHIHH   .     ::XX:IXXIHHV .     'V. . . .  :I:::.
-:.::.:.:... ...:.::IIIHHHIH    .    I:XX:XXVHMMI .      I.. .:. . .I::.:
-::.:::.:.... ..:.::IIIHIHHH.  .     :'XX:XXXVIVI  . .   ::..:. . .I::::.
-
+                       /,_ \
+                  ___    / /       ___
+     "eikel"     //  7  / /       //  7
+                (_-_/\_/ /       (_D_/\___
+                 \      /          \    _ \
+                  \    <           /   // /
+                  _\    \__     __/   /_7 \
+                 (   \     )   /  (      )/    "testikles"
+                  \___\___/   (____\____/
 
 
 
 
 *******************************/
-
-
-
-/*******************************
-Global Main Classes
-*******************************/
-body,
-html {
-    width: 100%;
-    height: 100%;
-    font-family: "Ubuntu","Helvetica Neue",Helvetica,Arial,sans-serif;
-    color: #333;
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 700;
-}
-
-.btn {
-    border: none;
-    font-family: inherit;
-    font-size: inherit;
-    color: inherit;
-    background: none;
-    cursor: pointer;
-    padding: 5px 15px;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-    font-weight: 700;
-    outline: none;
-    position: relative;
-    -webkit-transition: all 0.3s;
-    -moz-transition: all 0.3s;
-    transition: all 0.3s;
-}
-/*******************************
-EOF Global Main Classes
-*******************************/
-
-
-
-
-
-/*******************************
-Shorthand Classes
-*******************************/
-
-.btn-dark-red:focus,.btn-dark-red:hover {
-    box-shadow: 0 2px #752252;
-    top: 2px;
-    color:white!important;
-}
-.btn-dark-red:active {
-    box-shadow: 0 0 #752252;
-    top: 6px;
-    color:white!important;
-}
-
-
-.btn-red:focus,.btn-red:hover {
-    box-shadow: 0 2px #b8466b;
-    top: 2px;
-    color:white!important;
-}
-.btn-red:active {
-    box-shadow: 0 0 #b8466b;
-    top: 6px;
-    color:white!important;
-}
-.btn-red {
-    background: #db466b;
-    color: #fff;
-    box-shadow: 0 2px #b8466b;
-    -webkit-transition: none;
-    -moz-transition: none;
-    transition: none;
-    border-radius: 5px;
-}
-.btn-dark-red {
-    background: #a62670;
-    color: #fff;
-    box-shadow: 0 2px #752252;
-    -webkit-transition: none;
-    -moz-transition: none;
-    transition: none;
-    border-radius: 5px;
-}
-
-/*color*/
-.color-red {
-    color: #db466b;
-}
-.color-dark-red {
-    color: #a62670;
-}
-
-/*padding*/
-.ellipsis{
-    overflow: hidden; text-overflow: ellipsis; white-space: nowrap;
-}
-.ellipsis-2line{
-    line-height: 1.5em;
-    height: 5em;       /* height is 2x line-height, so two lines will display */
-    overflow: hidden;  /* prevents extra lines from being visible */
-}
-.ellipsis-2line:after {
-  position: absolute;
-  left: 0;
-  bottom: -10px;
-  width: 100%;
-  height: 1.5em;
-  background: linear-gradient(to bottom, rgba(255, 255, 255, 0), rgba(255, 255, 255, 1) 50%);
-}
-
-.lh-15{
-    line-height: 1.5;    
-}
-.mt-10{
-    margin-top: 10px;
-}
-.mt-0{
-    margin-top:0;
-}
-.pt-0{
-    padding-top:0;
-}
-.pt-0{
-    padding-top:0;
-}
-.mt-15{
-    margin-top: 15px;
-}
-.mt-20{
-    margin-top: 20px;
-}
-.mr-5{
-    margin-right: 5px;
-}
-.mr-10{
-    margin-right: 10px;
-}
-.ml-10{
-    margin-left: 10px;
-}
-.ml-5    {
-    margin-left: 5    px;
-}
-.mb-30{
-    margin-bottom: 30px;
-}
-.mb-10{
-    margin-bottom: 10px;
-}
-.mb-20{
-    margin-bottom: 20px;
-}
-.mb-5{
-    margin-bottom: 5px;
-}
-.mlr-0{
-    margin-left: 0;
-    margin-right: 0;
-}
-.mtb-0{
-    margin-top: 0;
-    margin-bottom: 0;
-}
-.fs-38{
-    font-size: 38px;
-}
-.fs-35{
-    font-size: 35px;
-}
-.fs-32{
-    font-size: 32px;
-}
-.fs-30{
-    font-size: 30px;
-}
-.fs-28{
-    font-size: 28px;
-}
-.fs-25{
-    font-size: 25px;
-}
-.fs-22{
-    font-size: 22px;
-}
-.fs-20{
-    font-size: 20px;
-}
-.fs-15{
-    font-size: 15px;
-}
-.fs-14{
-    font-size: 14px;
-}
-.fs-13{
-    font-size: 13px;
-}
-.fs-11{
-    font-size: 11px;
-}
-.plr-0{
-    padding-left: 0;
-    padding-right: 0;
-}
-.plr-5{
-    padding-left: 5px;
-    padding-right: 5px;
-}
-.plr-10{
-    padding-left: 10px;
-    padding-right: 10px;
-}
-.pd-5{
-    padding: 5px;
-}
-.pd-10{
-    padding: 10px;
-}
-.pd-15{
-    padding: 15px;
-}
-.pd-20{
-    padding: 20px;
-}
-
-/*vertical align*/
-.va-container-h {
-    width: 100%;
-}
-.va-container-v {
-    height: 100%;
-}
-.va-container {
-    display: table;
-    position: relative;
-}
-.va-middle {
-    vertical-align: middle;
-}
-.va-top, .va-middle, .va-bottom {
-    display: table-cell;
-}
-
-/*position*/
-.relative{
-    position: relative;
-}
-/*******************************
-    EOF Shorthand Classes
-*******************************/
-
-
-
-
-
-/******************************
-          Navigation
-******************************/
-.topnav {
-    font-size: 14px;
-    padding: 5px;
-}
-
-.navbar-idtuber{
-    background-color: white;
-    border-bottom: 1px solid #eee;
-}
-
-.navbar-idtuber__logo{
-    width: 160px;
-    height: 40px;
-    float: left;
-    text-indent: -9999px;
-    margin-top: -10px;
-    background-image: url('../img/idtuber-icon.svg');
-    background-repeat: no-repeat;
-}
-.navbar .nav button{
-    display: block;
-    position: relative;
-    margin: 8px;
-    margin-left: 10px;
-}
-
-.navbar-toggle{
-    border: 1px solid #333!important;
-}
-
-.navbar-idtuber .navbar-toggle:hover{
-    background: #f5f5f5;
-}
-
-.navbar-idtuber .navbar-toggle .icon-bar {
-    background-color: #333;
-}
-
-.navbar-idtuber li a{
-    color: #727272;
-    margin-top: 7px;
-    padding: 8px;
-    margin-left: 10px;
-    -webkit-transition: all 0.3s;
-    -moz-transition: all 0.3s;
-    transition: all 0.3s;
-}
-
-.navbar-idtuber li a:hover{
-    color: #333;
-}
-
-@media(max-width:992px){
-    .navbar-idtuber__logo{
-        width: 120px;
-        height: 30px;
-        margin-top: -5px;
-    }
-}
-
-@media(max-width:767px){
-   .navbar .nav button{
-        width: 85%;
-        margin: 0 auto;
-        text-align: center;
-        margin-bottom: 10px;
-    }
-   
-   .navbar .nav li a{
-        width: 85%;
-        margin: 0 auto;
-        text-align: center;
-        margin-bottom: 5px;
-       border-radius: 5px;
-    }
-}
-
-/******************************
-        EOF Navigation
-******************************/
 
 
 
@@ -494,8 +43,8 @@ Shorthand Classes
     position: relative;
     background-image: url(../assets/bg/hero-bg.jpg);
     background-size: cover;
-    
-    background-position: center;
+    background-position: bottom;
+    background-attachment: fixed;
 }
 
 #hero h1{
@@ -517,9 +66,10 @@ Shorthand Classes
     border-radius: 10px;
 }
 
-#hero p{
+#hero h5{
     max-width: 600px;
     color: white;
+    font-weight: 500;
 }
 
 @media (min-width: 768px)
@@ -559,6 +109,27 @@ Shorthand Classes
 
 
 /******************************
+        About
+******************************/
+
+.about__img{
+    width: 200px;
+    height: auto;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+
+
+/******************************
+        EOF About
+******************************/
+
+
+
+
+
+/******************************
         Last CTA
 ******************************/
 #cta{
@@ -566,6 +137,7 @@ Shorthand Classes
     color: #f8f8f8;
     background: url(../assets/bg/end-cta.jpg) no-repeat center center;
     background-size: cover;
+    padding: 100px 0px;
 }
 .cta__heading{
     color: white;
@@ -575,52 +147,11 @@ Shorthand Classes
     margin: 0 auto;
 }
 
-.section-1__card{
-    max-width: 300px;
-    width: 100%;
-    height: 100%;
-    
-    padding: 20px;
-    margin: 0 auto;
-    margin-top: 30px;
-    
-    background: #fff;
-    border-radius: 10px;
+#cta .btn{
+    padding: 15px;
+    width: 80%;
+    max-width: 350px;
 }
 /******************************
         EOF Last CTA
-******************************/
-
-
-
-
-
-
-/******************************
-        Footer
-******************************/
-footer {
-    padding: 50px 0;
-    background-color: #333;
-    color: white;
-}
-
-footer a{
-    color: #db466b;
-}
-
-@media(max-width:767px){
-    footer{
-        padding: 10px;
-    }
-    .content__video-title{
-        margin-bottom: 0px;
-    }
-}
-
-p.copyright {
-    margin: 15px 0 0;
-}
-/******************************
-        EOF Footer
 ******************************/
