@@ -566,12 +566,21 @@ footer a:focus{
     text-decoration: none;
 }
 
+@media(max-width:991px){
+    footer h3{
+        font-size: 20px;
+    }
+}
+
 @media(max-width:767px){
     footer{
         padding: 10px;
     }
     .content__video-title{
         margin-bottom: 0px;
+    }
+    footer h3{
+        font-size: 18px;
     }
 }
 

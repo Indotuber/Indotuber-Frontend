@@ -30,3 +30,18 @@
     background: white;
     border: 1px solid #ddd;
 }
+
+@media(max-width:767px){
+    h1{
+        font-size: 25px;
+    }
+    .hero__card{
+        margin-top: 20px;
+    }
+}
+
+@media(max-width:319px){
+    h1{
+        font-size: 22px;
+    }
+}
