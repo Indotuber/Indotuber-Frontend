@@ -1,36 +1,16 @@
 /***********************
     CONTENT LEFT SIDE
 ************************/
-.content__creator-sidebar{
-    position: fixed;
-    float: left;
-    max-width: 400px;
-    margin-top: 10px;
-}
-@media(max-width:1199px){
-    .content__creator-sidebar{
-        width: 320px;
-    }
-}
-@media(max-width:991px){
-    .content__creator-sidebar{
-        width: 250px;
-    }
-}
-@media(max-width:767px){
-    .content__creator-sidebar{
-        position: relative;
-        max-width: 100%;
-        width: 100%;
-    }
-}
-
 .content__creator-info{
     padding: 10px;
     background: #f5f5f5;
     border-radius: 5px;
     display: block;
     position: relative;
+}
+.content__creator-info .media img{
+    border-radius: 100%;
+    border: 1px solid #ddd;
 }
 
 .content__creator-info ol, 
