@@ -299,6 +299,9 @@ Shorthand Classes
 .mb-5{
     margin-bottom: 5px;
 }
+.mb-50{
+    margin-bottom: 50px;
+}
 .mlr-0{
     margin-left: 0;
     margin-right: 0;

@@ -160,9 +160,14 @@ h6 {
 }
 */
 
+a{
+    color: #db466b;
+}
+
 a:hover,
 a:focus{
     text-decoration: none!important;
+    color: #a62670;
 }
 /*******************************
 EOF Global Main Classes
@@ -175,23 +180,20 @@ EOF Global Main Classes
 /*******************************
 Shorthand Classes
 *******************************/
-.btn-dark-red:hover {
-    background: #752252;
-    color:white;
-}
-.btn-dark-red:active {
+.btn-dark-red:hover,
+.btn-dark-red:active,
+.btn-dark-red:focus {
     background: #752252;
     color:white;
 }
 
-.btn-red:hover {
+.btn-red:hover,
+.btn-red:active,
+.btn-red:focus{
     background: #b8466b;
     color:white;
 }
-.btn-red:active {
-    box-shadow: 0 0 #b8466b;
-    color:white;
-}
+
 .btn-red {
     background: #db466b;
     color: #fff;
@@ -200,6 +202,7 @@ Shorthand Classes
     transition: none;
     border-radius: 5px;
 }
+
 .btn-dark-red {
     background: #a62670;
     color: #fff;
@@ -459,7 +462,7 @@ Shorthand Classes
 .navbar-login
 {
     width: 250px;
-    padding: 10px;
+    padding: 10px
 }
 
 img#kreator-logo{
@@ -481,6 +484,7 @@ img#kreator-logo{
     .navbar-login{
         margin: 0 auto;
         text-align: center;
+        padding: 0;
     }
     .navbar-login .btn{
         margin: 0 auto;
@@ -504,6 +508,18 @@ img#kreator-logo{
     border: 1px solid #eee;
     border-radius: 5px;
 }
+/*
+
+.navbar-login ul {
+    display: block;
+    list-style-type: disc;
+    -webkit-margin-before: 0em!important;
+    -webkit-margin-after: 0em!important;
+    -webkit-margin-start: 0px!important;
+    -webkit-margin-end: 0px!important;
+    -webkit-padding-start: 0px!important;
+}
+*/
 
 /*EOF Nav after login*/
 /******************************
@@ -536,6 +552,8 @@ footer {
     padding: 50px 0;
     background-color: #333;
     color: white;
+    z-index: 10;
+    position: relative;
 }
 
 footer a{
