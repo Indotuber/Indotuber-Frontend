@@ -58,6 +58,7 @@
 
 .kreator-detail__video-desc{
     margin-top: 20px;
+    word-wrap: break-word;
 }
 
 /******************************

@@ -141,12 +141,13 @@ h6 {
 }
 
 
-a{
+a,
+a:focus{
     color: #db466b;
+    text-decoration: none!important;
 }
 
-a:hover,
-a:focus{
+a:hover{
     text-decoration: none!important;
     color: #a62670;
 }
@@ -543,7 +544,53 @@ img#kreator-logo{
 }
 
 
+/******************************
+        Social Media
+******************************/
 
+.fa-facebook-square:before {
+    color: #3b5998!important;
+}
+
+.fa-facebook-square:hover:before {
+    color: #2D4475!important;
+}
+
+.fa-twitter-square:before {
+    color: #55acee!important;
+}
+
+.fa-twitter-square:hover:before {
+    color: #4182B3!important;
+}
+
+.fa-google-plus-square:before {
+    color: #dd4b39!important;
+}
+
+.fa-google-plus-square:hover:before {
+    color: #9C3124!important;
+}
+
+.fa-instagram:before {
+    color: #125688!important;
+}
+
+.fa-instagram:hover:before {
+    color: #123854!important;
+}
+
+.fa-link:before {
+    color: #727272!important;
+}
+
+.fa-link:hover:before {
+    color: #333333!important;
+}
+
+/******************************
+        EOF Social Media
+******************************/
 
 
 
@@ -560,6 +607,10 @@ footer {
 
 footer a{
     color: #db466b;
+}
+
+footer a .fa:before{
+    color: #db466b!important;
 }
 
 footer a:hover,
