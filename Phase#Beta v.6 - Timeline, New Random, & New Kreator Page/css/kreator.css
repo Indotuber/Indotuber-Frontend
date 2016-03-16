@@ -2,15 +2,11 @@
     CONTENT LEFT SIDE
 ************************/
 .content__creator-info{
-    padding: 10px;
+    padding: 15px 5px;
     background: #f5f5f5;
     border-radius: 5px;
     display: block;
     position: relative;
-}
-.content__creator-info .media img{
-    border-radius: 100%;
-    border: 1px solid #ddd;
 }
 
 .content__creator-info ol, 
@@ -28,6 +24,7 @@
     border-radius: 100%;
     width: 70px;
     height: 70px;
+    border: 1px solid #ddd;
 }
 /***********************
     EOF CONTENT LEFT SIDE
@@ -40,30 +37,17 @@
 /***********************
     Content Right SIDE
 ************************/
-.content__creator-videos{
-    position: relative;
-    float: right;
-}
 
-.content__other-videos{
+.other-videos__video-info{
+    padding: 10px 5px;
+    margin-top: 10px!important;
+    margin-bottom: 20px;
     background: #f5f5f5;
-    padding: 10px 15px;
     border-radius: 5px;
+    font-size: 13px;
 }
-.content__other-videos .thumbnail{
-    padding: 0; 
-    margin-bottom: 0px; 
-    margin-top: 5px;
-    background-color: transparent; 
-    border: none; 
-}
-
-@media(max-width:767px){
-    .content__other-videos .caption{
-       text-align: center;
-        max-width: 90%;
-        margin: 0 auto;
-    }
+.other-videos__video-info p{
+    margin: 0;
 }
 
 /*pagination*/
