@@ -9,6 +9,13 @@
     position: relative;
 }
 
+@media(max-width:767px){
+    .content__creator-info{
+        margin-bottom: 30px;
+        border-radius: 0px;
+    }
+}
+
 .content__creator-info ol, 
 .content__creator-info ul {
     margin-top: 0;
