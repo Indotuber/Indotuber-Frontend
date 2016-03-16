@@ -1,0 +1,256 @@
+/*******************************
+LANDING PAGE CSS
+Indotuber v.1.03 - "Dancing Testicles"
+
+                       /,_ \
+                  ___    / /       ___
+     "eikel"     //  7  / /       //  7
+                (_-_/\_/ /       (_D_/\___
+                 \      /          \    _ \
+                  \    <           /   // /
+                  _\    \__     __/   /_7 \
+                 (   \     )   /  (      )/    "testikles"
+                  \___\___/   (____\____/
+
+
+
+
+*******************************/
+
+
+
+
+
+/******************************
+        Content
+******************************/
+.content{
+    padding: 50px 0px!important;
+}
+/******************************
+        EOF Content
+******************************/
+
+
+
+
+
+/******************************
+        Hero
+******************************/
+#hero{
+    margin-top: 70px;
+    position: relative;
+    background-image: url(../assets/bg/hero-bg.jpg);
+    background-size: cover;
+    background-position: bottom;
+    background-attachment: fixed;
+}
+
+#hero h1{
+    position: relative;
+    vertical-align: middle;
+    font-size: 32px;
+    color: white;
+    margin-bottom: 20px;
+}
+.hero__card{
+    max-width: 300px;
+    width: 100%;
+    height: 100%;
+    
+    padding: 20px;
+    margin: 0 auto;
+    margin-top: 30px;
+    
+    background: #f5f5f5;
+    border-radius: 10px;
+}
+
+#hero h5{
+    max-width: 600px;
+    color: white;
+    font-weight: 500;
+}
+.hero__content {
+    height: 400px;
+    z-index: 2;
+    text-align: left;
+}
+
+@media (max-width: 1199px){
+    .hero__content h1{
+        font-size: 28px!important;
+    }
+}
+
+@media (max-width: 991px){
+    .hero__content{
+        margin-bottom: 50px;
+    }
+    #hero h5{
+        margin: 0 auto;
+        font-size: 15px;
+    }
+    .hero__content h1{
+        margin-bottom: 20px;
+    }
+}
+
+@media (max-width: 767px){
+    .hero__content{
+        margin-bottom: 50px;
+        height: auto;
+        text-align: center;
+    }
+    #hero h5{
+        margin: 0 auto;
+    }
+    .hero__content h1{
+        margin-bottom: 20px;
+    }
+}
+
+
+/*vertical align*/
+.va-container-h {
+    width: 100%;
+}
+.va-container-v {
+    height: 100%;
+}
+.va-container {
+    display: table;
+    position: relative;
+}
+.va-middle {
+    vertical-align: middle;
+}
+.va-top, .va-middle, .va-bottom {
+    display: table-cell;
+}
+/******************************
+        EOF Hero
+******************************/
+
+
+
+
+
+/******************************
+        Kreator Videos
+******************************/
+
+#kreator-videos{
+}
+
+
+
+/******************************
+        EOF Kreator Videos
+******************************/
+
+
+
+
+
+/******************************
+        About
+******************************/
+#about{
+    background: #f5f5f5;
+}
+
+.about__img{
+    width: 150px;
+    height: auto;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+.about__img--first{
+    width: 100px;
+    height: auto;
+    margin: 0 auto;
+}
+
+#about .media{
+    border: 1px solid #eee;
+    border-radius: 10px;
+    padding: 20px 10px;
+    margin-bottom: 20px;    
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
+    background: #fff;
+}
+
+#about .media:hover{
+    -webkit-box-shadow:  0 0 0 2px #db466b;
+    -moz-box-shadow:  0 0 0 2px #db466b;
+    box-shadow:  0 0 0 2px #db466b;
+}
+
+
+
+/******************************
+        EOF About
+******************************/
+
+
+
+/******************************
+        Mimpi
+******************************/
+
+
+@media(max-width:767px){
+    #mimpi .col-md-3{
+        margin-bottom: 30px;
+    }
+    #mimpi .col-md-3:last-child{
+        margin-bottom: 0px;
+    }
+    .cta__heading{
+        font-size: 20px;
+    }
+}
+
+/******************************
+        EOF Mimpi
+******************************/
+
+
+
+
+
+/******************************
+        Last CTA
+******************************/
+#cta{
+    text-align: center;
+    color: #f8f8f8;
+    background: url(../assets/bg/end-cta.jpg) no-repeat center center;
+    background-size: cover;
+    padding: 100px 0px;
+}
+.cta__heading{
+    color: white;
+}
+#cta p{
+    width: 600px;
+    margin: 0 auto;
+}
+
+#cta .btn{
+    padding: 15px;
+    width: 80%;
+    max-width: 350px;
+}
+/******************************
+        EOF Last CTA
+******************************/
+
+.mb-50{
+    margin-bottom: 50px;
+}
