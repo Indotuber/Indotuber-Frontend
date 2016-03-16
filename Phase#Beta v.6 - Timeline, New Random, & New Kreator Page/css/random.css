@@ -69,7 +69,6 @@
 }
 
 #main-video--title .btn.btn-red.btn-random{
-    margin-top: -10px;
     width: 150px;
 }
 
@@ -80,6 +79,9 @@
     }
     #main-video--title .btn-desc{
         display: block;
+    }
+    #main-video--title .share-video{
+        text-align: center;
     }
 }
 
