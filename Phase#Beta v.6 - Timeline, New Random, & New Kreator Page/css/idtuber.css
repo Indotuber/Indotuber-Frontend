@@ -1,6 +1,6 @@
 /*******************************
 GLOBAL CLASS CSS
-Indotuber v.1.04 - "Naked Lady"
+IDTUBER v.1.04 - "Naked Lady"
 
                           ,.--..
                        ,:'.   .,'V:.::..  .
@@ -260,6 +260,9 @@ Shorthand Classes
 .mt-20{
     margin-top: 20px;
 }
+.mt-30{
+    margin-top: 30px;
+}
 .mb-0{
     margin-bottom: 0px!important;
 }
@@ -356,12 +359,27 @@ Shorthand Classes
 .va-middle{
     vertical-align: middle;
 }
+
+/*font weight*/
 .bold{
     font-weight: 500;
 }
 .ultrabold{
     font-weight: 700;
 }
+
+/*display*/
+.block{
+    display: block;
+}
+.inline{
+    display: inline;
+}
+.inline-block{
+    display: inline-block;
+}
+
+
 /*******************************
     EOF Shorthand Classes
 *******************************/
