@@ -33,77 +33,83 @@
 
 <body>
 
-    <!-- Navigation -->
-    <nav class="navbar navbar-idtuber navbar-fixed-top topnav" role="navigation">
-        <div class="container topnav">
-            <!-- Brand and toggle get grouped for better mobile display -->
+    <!-- Navigation After Login--><nav id="navigation">
+       <div class="container">
             <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
+                <button id="nav-burger" type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse">
+                    <span></span>
+                    <span></span>
+                    <span></span>
                 </button>
                 <a class="navbar-brand" href="#">
-                    <img class="navbar-idtuber__logo" src="img/idtuber-icon.svg" alt="">
+                    <img id="nav-logo" src="img/idtuber-icon.svg" alt="">
                 </a>
             </div>
             <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <div class="collapse navbar-collapse" id="navbar-collapse">
+                <div id="nav-search">
+                    <form class="navbar-form" role="search">
+                    <div class="input-group">
+                        <input type="text" class="form-control" placeholder="Cari video atau kreator" name="">
+                        <a href=""><i class="fa fa-search"></i></a>
+                    </div>
+                    </form>
+                </div>
                 <ul class="nav navbar-nav navbar-right">
                     <li>
-                        <a href="">
-                        <i class="fa fa-film mr-5"></i>
-                        Kurasi</a>
+                        <a href=""><i class="fa fa-compass fa-lg mr-5"></i>Explore Video</a>
                     </li>
                     <li>
-                        <a href="">
-                        <i class="fa fa-video-camera mr-5"></i>Channel</a>
+                        <a href=""><i class="fa fa-desktop fa-lg mr-5"> </i>IDTUBER TV</a>
                     </li>
-                    <li id="user-menu" class="dropdown">
-                        <a href="#" class="dropdown-toggle relative" data-toggle="dropdown">
+                    <li id="nav-user" class="dropdown">
+                        <a  href="#" class="dropdown-toggle relative" data-toggle="dropdown">
                             <i class="fa fa-caret-down pull-right mt-5" id="kreator-caret"></i>
-                            Halo, <b>Briandito Priambodo</b>!
-                            <img src="https://scontent-sin1-1.xx.fbcdn.net/hphotos-xpf1/t31.0-8/q84/s960x960/12771959_1681411422118815_6522862864274435105_o.jpg" alt="" id="kreator-logo" class="pull-right">
+                            <img src="https://graph.facebook.com/10153687778834593/picture" alt="" id="kreator-logo" class="pull-right">
                         </a>
                         <ul class="dropdown-menu">
                             <li>
                                 <div class="navbar-login pt-5">
-                                    <div class="row">
-                                        <div class="col-xs-12">
-
-                                            <a href="" class="btn btn-default btn-block btn-sm ml-0 p-5">
-                                                Pengaturan Channel
+                                    Halo, <b>Briandito Priambodo</b>!
+                                    <ul class="dropdown-user">
+                                        <li class="">
+                                            <a href="" class="">
+                                                <i class="glyphicon glyphicon-facetime-video mr-5"></i>
+                                                Halaman Kreator
                                             </a>
-
-                                            <a href="" class="btn btn-default btn-block btn-sm ml-0 p-5">
+                                        </li>  
+                                        <li class="">
+                                            <a href="" class="">
+                                                Pengaturan Kreator
+                                            </a>
+                                        </li>  
+                                        <li class="">
+                                            <a href="" class="">
                                                 Pengaturan Akun
                                             </a>
-
-                                            <a href="" class="btn btn-red btn-block btn-sm ml-0 color-white p-5">
-                                                Feedback
+                                        </li> 
+                                        <li class="">
+                                            <a href="" class="btn-red">Feedback
                                             </a>
-                                            
-                                            <hr class="mt-5 mb-5">
-                                            
-                                            <a href="" class="ml-0 pull-right mt-0 mb-0 p-0" id="dropdown-logout">
+                                        </li>  
+                                        <li class="">
+                                            <a href="" class="">
                                                 <i class="fa fa-sign-out"></i>
                                                 <span class="fs-13">Keluar</span>
                                             </a>
-                                            
-                                        </div>
-                                    </div>
+                                        </li>  
+                                    </ul>
                                 </div>
                             </li>
                             
                         </ul>
-                </li>
+                    </li>
                 </ul>
             </div>
             <!-- /.navbar-collapse -->
         </div>
-        <!-- /.container -->
     </nav>
+
 
 
 
