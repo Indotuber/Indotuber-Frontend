@@ -2,35 +2,21 @@
         Main Content
 ******************************/
 
-
-
-/******************************
-        modal video
-******************************/
-
-@media(max-width:480px){
-    .modal__kreator-detail h4{
-        font-size: 15px;
-    }
-}
-
-.content__creator-img{
-    border-radius: 100%;
-    width: 70px;
-    height: 70px;
-}
-
-.modal__kreator-detail{
+.search-result__item{
+    margin-bottom: 30px;
+    padding: 0;;
+    border-radius: 5px;    
     background: #f5f5f5;
-    padding: 5px 0;
-    margin-top: 10px;
 }
-
-.kreator-detail__video-desc{
-    margin-top: 20px;
-    word-wrap: break-word;
+.search-result__item .video-thumb{
+    height: 200px;
+    width: auto;
 }
-
-/******************************
-        EOF modal video
-******************************/
+.search-result__item-desc{
+    padding: 10px;
+}
+.search-result__item-desc .search-result__item-desc__video-desc{
+    line-height: 1.5em;
+    height: 87px;       /* height is 2x line-height, so two lines will display */
+    overflow: hidden;  /* prevents extra lines from being visible */
+}
