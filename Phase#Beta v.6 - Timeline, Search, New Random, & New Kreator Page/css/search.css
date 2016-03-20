@@ -2,11 +2,14 @@
         Main Content
 ******************************/
 
+ul.search-result{
+    list-style: none;
+    padding: 0 50px;
+}
 .search-result__item{
     margin-bottom: 30px;
     padding: 0;;
     border-radius: 5px;    
-    background: #f5f5f5;
 }
 .search-result__item .video-thumb{
     height: 200px;
@@ -14,9 +17,37 @@
 }
 .search-result__item-desc{
     padding: 10px;
+    color: #212121;
+}
+.search-result__item-desc__box{
+    background: #f5f5f5;
+    padding: 13px;
+}
+.search-result__item-desc__box img{
+    width: 50px;
+    height: 50px;
 }
 .search-result__item-desc .search-result__item-desc__video-desc{
     line-height: 1.5em;
     height: 87px;       /* height is 2x line-height, so two lines will display */
     overflow: hidden;  /* prevents extra lines from being visible */
+}
+
+@media(max-width:767px){
+    ul.search-result{
+        list-style: none;
+        padding: 0px;
+    }
+    .search-result__item__video-thumb{
+        width: 100%;
+    }
+    .search-result__item > .media > .media-left{
+        padding-right: 0;        
+        width: 100%;
+        display: block;
+    }
+    .search-result__item .media .media-body.media-middle.search-result__item-desc{
+        width: 100%;
+        display: block;
+    }
 }
