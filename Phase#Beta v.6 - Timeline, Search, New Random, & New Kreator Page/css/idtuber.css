@@ -487,12 +487,12 @@ Shorthand Classes
     
         #navigation #navbar-collapse ul li#nav-user > a{
             height: 50px;
-            padding-left: 0;
         }
     
         #navigation #navbar-collapse ul li#nav-user .dropdown-menu{
             font-size: 12px;
             margin-top: -1px;
+            border: 1px solid #eee;
         }
 
         #nav-user img#kreator-logo {
@@ -501,6 +501,8 @@ Shorthand Classes
             border-radius: 100%;
             border: 1px solid;
             margin-top: -5px;
+            margin-right: 5px;
+            float: left!important;
         }
     
         #navigation #navbar-collapse ul li#nav-user .dropdown-menu ul.dropdown-user{
@@ -509,10 +511,15 @@ Shorthand Classes
             padding: 0px;
         }
     
+        #navigation #navbar-collapse ul li#nav-user .navbar-login {
+            width: 250px;
+            padding: 10px;
+        }
+    
         #navigation #navbar-collapse ul li#nav-user .dropdown-menu ul.dropdown-user li a{
             padding: 5px;
             margin: 10px 0;
-            border: 1px solid #ddd;
+            border: 1px solid #eee;
             border-radius: 5px;
             display: block;
             text-align: center;
@@ -638,6 +645,11 @@ Shorthand Classes
         #navigation #nav-search .input-group{
             width: 160px;
         }
+        
+        #navigation #navbar-collapse ul li a{
+            padding-left: 10px;
+            padding-right: 10px;
+        }
     }
 
     @media(max-width:767px){
@@ -655,16 +667,7 @@ Shorthand Classes
         #navigation #nav-search .input-group i{            
             padding: 8px!important;
         }
-    }
-
-    @media(min-width:768px) and (max-width:992px){
-        #navigation #navbar-collapse ul li a{
-            padding-left: 10px;
-            padding-right: 10px;
-        }
-    }
-
-    @media(max-width:767px){
+        
         #navigation #navbar-collapse ul li a{
             border-bottom: 1px solid #eee;
             text-align: center;
@@ -688,11 +691,25 @@ Shorthand Classes
         #navigation #navbar-collapse ul li#nav-user > a {
             height: 40px;
         }
+        #navigation #navbar-collapse ul li#nav-user > a i,
+        #navigation #navbar-collapse ul li#nav-user > a img{
+            float: none!important;
+        }
+        #navigation #navbar-collapse ul li#nav-user .dropdown-menu {
+            border: none;
+        }
         #navigation #navbar-collapse ul li#nav-user .dropdown-menu .navbar-login{
             width: 100%;
+            text-align: center;
+            padding: 0;
         }
         #navigation #navbar-collapse ul li#nav-user .dropdown-menu .navbar-login ul li a{
             padding: 10px;
+        }
+        #navigation #navbar-collapse ul li#nav-user .dropdown-menu ul.dropdown-user li a:hover,
+        #navigation #navbar-collapse ul li#nav-user .dropdown-menu ul.dropdown-user li a.btn-red:hover{
+            background: #fff;
+            border-color: #fff;
         }
     }
     
@@ -712,7 +729,7 @@ Shorthand Classes
 ******************************/
 
 .content{
-    padding-top: 90px;
+    padding-top: 30px;
     padding-bottom: 50px;
 }
 .alert-idtuber{
@@ -721,7 +738,6 @@ Shorthand Classes
 .alert-idtuber a{
     text-decoration: underline;
 }
-
 
 /******************************
         Social Media

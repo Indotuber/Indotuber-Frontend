@@ -39,7 +39,6 @@ IDTUBER v.1.03 - "Dancing Testicles"
         Hero
 ******************************/
 #hero{
-    margin-top: 70px;
     position: relative;
     background-image: url(../assets/bg/hero-bg.jpg);
     background-size: cover;

@@ -46,7 +46,7 @@
                     <img id="nav-logo" src="img/idtuber-icon.svg" alt="">
                 </a>
             </div>
-            
+            <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="navbar-collapse">
                 <div id="nav-search">
                     <form class="navbar-form" role="search">
@@ -63,16 +63,56 @@
                     <li>
                         <a href=""><i class="fa fa-desktop fa-lg mr-5"> </i>IDTUBER TV</a>
                     </li>
-                    <li>
-                        <a href="">Masuk</a>
-                    </li>
-                    <li>
-                        <a id="nav-signup" href="">Daftar</a>
+                    <li id="nav-user" class="dropdown">
+                        <a  href="#" class="dropdown-toggle relative" data-toggle="dropdown">
+                            <img src="https://graph.facebook.com/10153687778834593/picture" alt="" id="kreator-logo" class="pull-right">
+                            <i class="fa fa-caret-down mt-5" id="kreator-caret"></i>
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li>
+                                <div class="navbar-login pt-5">
+                                    <div class="nav-user__name">
+                                        Halo, <b>Briandito Priambodo</b>!
+                                    </div>
+                                    <ul class="dropdown-user">
+                                        <li class="">
+                                            <a href="" class="">
+                                                <i class="glyphicon glyphicon-facetime-video mr-5"></i>
+                                                Halaman Kreator
+                                            </a>
+                                        </li>  
+                                        <li class="">
+                                            <a href="" class="">
+                                                Pengaturan Kreator
+                                            </a>
+                                        </li>  
+                                        <li class="">
+                                            <a href="" class="">
+                                                Pengaturan Akun
+                                            </a>
+                                        </li> 
+                                        <li class="">
+                                            <a href="" class="btn-red">Feedback
+                                            </a>
+                                        </li>  
+                                        <li class="">
+                                            <a href="" class="">
+                                                <i class="fa fa-sign-out"></i>
+                                                <span class="fs-13">Keluar</span>
+                                            </a>
+                                        </li>  
+                                    </ul>
+                                </div>
+                            </li>
+                            
+                        </ul>
                     </li>
                 </ul>
             </div>
+            <!-- /.navbar-collapse -->
         </div>
     </nav>
+    <!-- EOF Navigation -->
 
 
     <!-- Content -->
