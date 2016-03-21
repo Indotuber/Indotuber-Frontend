@@ -398,15 +398,18 @@ Shorthand Classes
 #navigation{
     background: #f5f5f5;
     border-bottom: 1px solid #eee;
-    height: 50px;
-    padding: 0 15px;
+    height: 60px;
+    width: 100%;
+    padding: 0px 15px;
+    position: fixed;
+    z-index: 1000;
 }
 
     #navigation #nav-logo{
-        width: 100px;
-        height: 25px;
+        width: 160px;
+        height: 40px;
         float: left;
-        margin-top: -2px;
+        margin-top: -10px;
         text-indent: -9999px;
         background-image: url('../img/idtuber-icon.svg');
         background-repeat: no-repeat;
@@ -415,7 +418,7 @@ Shorthand Classes
 /* Search Style */
 
     #navigation #nav-search{
-        margin-top: 4px;
+        margin-top: 10px;
         display: inline-block;
     }
 
@@ -427,7 +430,7 @@ Shorthand Classes
         #navigation #nav-search .input-group i.fa.fa-search{
             position: absolute;
             background: white;
-            padding: 6px;
+            padding: 5.5px;
             right: -15px;
             z-index: 3;
             border-bottom-right-radius: 5px;
@@ -484,9 +487,26 @@ Shorthand Classes
         }
     
         #navigation #navbar-collapse ul li#nav-user > a{
-            height: 50px;
+            height: 40px;
         }
-    
+
+        @media(min-width:768px){
+            #navigation #nav-logo{
+                margin-top: -5px;
+            }
+            #navigation #navbar-collapse ul li a{
+                line-height: 2.5;
+            } 
+            #navigation #navbar-collapse ul li#nav-user > a{
+                line-height: 2.5;
+                height: 60px;
+            }
+            #nav-user img#kreator-logo {
+                width: 40px!important;
+                height: 40px!important;
+            }
+        }
+
         #navigation #navbar-collapse ul li#nav-user .dropdown-menu{
             font-size: 12px;
             margin-top: -1px;
@@ -660,7 +680,7 @@ Shorthand Classes
             width: 100%;
         }
         #navigation #nav-search .input-group input{            
-            height: 30px;
+            height: 29px;
         }
         #navigation #nav-search .input-group i{            
             padding: 8px!important;
@@ -727,7 +747,7 @@ Shorthand Classes
 ******************************/
 
 .content{
-    padding-top: 30px;
+    padding-top: 60px;
     padding-bottom: 50px;
 }
 .alert-idtuber{
