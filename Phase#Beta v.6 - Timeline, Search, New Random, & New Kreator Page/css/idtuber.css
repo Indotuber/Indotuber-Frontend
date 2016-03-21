@@ -671,6 +671,9 @@ Shorthand Classes
     }
 
     @media(max-width:767px){
+        #navigation {
+            box-shadow: 1px 1px 5px 1px rgba(51,51,51,0.3);
+        }
         #navigation #nav-search{
             margin-bottom: -15px;
             margin-top: -10px;
