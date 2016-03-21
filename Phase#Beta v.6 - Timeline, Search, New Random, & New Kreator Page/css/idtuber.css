@@ -505,6 +505,10 @@ Shorthand Classes
                 width: 40px!important;
                 height: 40px!important;
             }
+            #navigation #navbar-collapse ul li a#nav-signup,
+            #navigation #navbar-collapse ul li a#nav-signup:hover{
+                margin-top: 14px;
+            }
         }
 
         #navigation #navbar-collapse ul li#nav-user .dropdown-menu{
