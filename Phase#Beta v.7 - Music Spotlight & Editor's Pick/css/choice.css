@@ -1,0 +1,164 @@
+/******************************
+        Welcome Board
+*****************************
+
+/*banner style*/
+#music-banner {
+    padding-top: 75px;
+    padding-bottom: 70px;
+    position: relative;
+    background: #212121;
+    overflow: hidden;
+    background-image: url('../img/spotlight-background-pattern.png');
+    background-repeat: repeat;
+    -ms-background-size: 300px;
+    -o-background-size: 300px;
+    -moz-background-size: 300px;
+    -webkit-background-size: 300px;
+    background-size: 300px;
+}
+
+#music-banner h1{
+    padding-top: 30px;
+}
+#music-banner h4{
+    font-weight: 500;
+}
+
+/**************************
+            Eof welcome
+******************************/
+
+
+
+
+
+
+/******************************
+        list
+******************************/
+#music-chart{
+    padding: 20px;
+}
+
+#music-chart .music-chart__position .label{
+    background-color: #752252;
+    color: white;
+    font-size: 25px;
+    border-radius: 50px;;
+    position: absolute;
+    left: -15px;
+    padding-top: 11px;
+    height: 48px;
+}
+
+#music-chart .music-chart__position .label.label-1st{
+    background: #db466b;
+}
+
+#music-chart .music-chart__position .label.label-2nd{
+    background: #b8466b;
+}
+
+#music-chart .music-chart__position .label.label-3rd{
+    background: #a62670;
+}
+
+ul.music-chart{
+    list-style: none;
+    padding: 0 50px;
+}
+.music-chart__item{
+    margin-bottom: 30px;
+    padding: 0;;
+    border-radius: 5px;    
+}
+.music-chart__item .video-thumb{
+    height: 200px;
+    width: auto;
+}
+.music-chart__item-desc{
+    padding: 10px;
+    color: #212121;
+}
+.music-chart__item-desc__box{
+    background: #212121;
+    background-image: url(../img/spotlight-background-pattern.png);
+    background-size: 300px;
+    background-position: right;
+    background-repeat: no-repeat;
+    padding: 13px;
+}
+.music-chart__item-desc__box img{
+    width: 50px;
+    height: 50px;
+}
+.music-chart__item-desc .music-chart__item-desc__video-desc{
+    line-height: 1.5em;
+    height: 87px;       /* height is 2x line-height, so two lines will display */
+    overflow: hidden;  /* prevents extra lines from being visible */
+}
+
+.media-body.media-middle p{
+    max-width: 600px;
+    display: block;
+}
+
+@media(min-width:992px) and (max-width:1199px){
+    .media-body.media-middle p{
+        max-width: 400px;
+    }
+}
+
+@media(min-width:768px) and (max-width:991px){
+    .media-body.media-middle p{
+        max-width: 250px;
+    }
+}
+
+@media(max-width:767px){
+    .media-body.media-middle p{
+        max-width: 100%;
+        white-space: normal;
+        overflow: visible;
+        text-overflow: initial;
+    }
+}
+
+
+@media(max-width:767px){
+    #music-banner {
+        padding-top: 60px;
+        padding-bottom: 40px;
+    }
+    #music-banner h1{
+        padding-top: 10px;
+        font-size: 25px;
+    }
+    #music-banner h4{
+        font-size: 15px;
+    }
+    #music-chart .music-chart__position .label{
+        top: -10px;
+    }
+    ul.music-chart{
+        list-style: none;
+        padding: 0px;
+    }
+    .music-chart__item__video-thumb{
+        width: 100%;
+    }
+    .music-chart__item > .media > .media-left{
+        padding-right: 0;        
+        width: 100%;
+        display: block;
+    }
+    .music-chart__item .media .media-body.media-middle.music-chart__item-desc{
+        width: 100%;
+        display: block;
+    }
+}
+
+/******************************
+        EOF list
+******************************/
