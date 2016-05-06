@@ -214,9 +214,9 @@ Shorthand Classes
 
 /*padding*/
 .ellipsis {
-    white-space: nowrap;
+    white-space: nowrap; 
     overflow: hidden;
-    text-overflow: ellipsis;
+    text-overflow: ellipsis; 
 }
 .ellipsis-2line{
     line-height: 1.5em;

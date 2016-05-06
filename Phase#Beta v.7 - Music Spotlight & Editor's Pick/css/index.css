@@ -1,0 +1,156 @@
+/*video style*/
+.content{
+    padding: 20px;
+}
+
+.video-info{
+    padding: 5px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    background: #F5F5F5;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.video-info p{
+    white-space: nowrap; 
+    overflow: hidden;    
+    text-overflow: ellipsis; 
+    word-wrap: normal;
+    display: block;
+    max-width: 215px;
+}
+
+.container .row img{
+    cursor: pointer;
+}
+
+.section-title{
+    color: #db466b;
+    border-left: 5px solid #db466b;
+    padding-left: 10px;
+    margin-bottom: 20px;
+}
+
+/*hero*/
+#hero{
+    padding-top: 60px;
+}
+
+.hero__featured{
+    text-align: center;
+    margin: 0 auto;
+}
+
+.hero__featured__item--main{
+    width: 50%;
+    float: left;
+}
+.hero__featured__item{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    width: 25%;
+    float: left;
+}
+
+.hero__featured__item li,
+.hero__featured__item--main{
+    overflow: hidden;
+}
+
+.hero__featured__item li img,
+.hero__featured__item--main img{
+  max-width: 100%;
+  
+  -moz-transition: all 0.3s;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.hero__featured__item li:hover img,
+.hero__featured__item--main:hover img{
+  -moz-transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+@media(min-width:768px) and (max-width:991px){
+    .hero__featured__item--main{
+        width: 100%;
+        float: left;
+    }
+    ul.hero__featured__item{
+        display: inline;        
+        float: none;
+    }
+    .hero__featured__item li{
+        display: inline;        
+        width: 50%;
+        float: left;
+    }
+}
+
+@media(max-width:768px){
+    .hero__featured__item--main{
+        width: 100%;
+        float: left;
+    }
+    ul.hero__featured__item{
+        display: inline;        
+        float: none;
+    }
+    .hero__featured__item li{
+        width: 100%;
+    }
+}
+/*EOF hero*/
+
+
+#videos-of-the-week,
+#new-videos{
+    background: #F5F5F5;
+}
+
+#music-spotlight{
+    background: #212121;
+    background-image: url('../img/spotlight-background-pattern.png');
+    background-repeat: repeat;
+    -ms-background-size: 300px;
+    -o-background-size: 300px;
+    -moz-background-size: 300px;
+    -webkit-background-size: 300px;
+    background-size: 300px;
+}
+
+#music-spotlight .section-title{
+    color: white;
+    border-color: white;
+}
+
+/******************************
+        Last CTA
+******************************/
+#cta{
+    text-align: center;
+    color: #f8f8f8;
+    background: url(../assets/bg/end-cta.jpg) no-repeat center center;
+    background-size: cover;
+    padding: 80px 0px;
+}
+.cta__heading{
+    color: white;
+}
+#cta p{
+    width: 600px;
+    margin: 0 auto;
+}
+
+#cta .btn{
+    padding: 15px;
+    width: 80%;
+    max-width: 350px;
+}
+/******************************
+        EOF Last CTA
+******************************/
